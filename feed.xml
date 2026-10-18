@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
-    <title>DC TV — APAC Data Centre News</title>
+    <title>DC TV â€” APAC Data Centre News</title>
     <link>https://tv.leeheggan.tech</link>
     <description>The weekly APAC data-centre wrap, AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 23:31:51 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 23:36:13 +0000</lastBuildDate>
     <itunes:author>DC TV</itunes:author>
     <itunes:email>tv@leeheggan.tech</itunes:email>
     <managingEditor>tv@leeheggan.tech (DC TV)</managingEditor>
@@ -14,7 +14,7 @@
     <itunes:image href="https://leeheggan-droid.github.io/dctv-podcast/cover.jpg"/>
     <image>
       <url>https://leeheggan-droid.github.io/dctv-podcast/cover.jpg</url>
-      <title>DC TV — APAC Data Centre News</title>
+      <title>DC TV â€” APAC Data Centre News</title>
       <link>https://tv.leeheggan.tech</link>
     </image>
     <item>
@@ -77,7 +77,7 @@ https://tv.leeheggan.tech
 
 #datacenters #AI #APAC #news
 
-Location map: Google Maps. Imagery ©2026 Vexcel Imaging US, Inc.; Imagery ©2026 Airbus, Maxar Technologies, Vexcel Imaging US, Inc.; Map data ©2026 Google. Captured 18 October 2026; satellite imagery date unknown.</description>
+Location map: Google Maps. Imagery Â©2026 Vexcel Imaging US, Inc.; Imagery Â©2026 Airbus, Maxar Technologies, Vexcel Imaging US, Inc.; Map data Â©2026 Google. Captured 18 October 2026; satellite imagery date unknown.</description>
       <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep15.mp3" length="10191788" type="audio/mpeg"/>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="https://leeheggan-droid.github.io/dctv-podcast/cover.jpg"/>
@@ -259,7 +259,7 @@ Chapters:
 4:00 firmus
 4:48 neutradc
 5:30 Markets check
-6:31 DL E&amp;C · 1 week
+6:31 DL E&amp;C Â· 1 week
 7:05 Next story
 8:17 Sydney
 8:27 Singapore
@@ -316,8 +316,8 @@ Chapters:
 3:14 Thailand build freeze
 3:47 aws
 4:43 Markets check
-5:47 IREN · 1 week
-6:03 Ciena · 1 week
+5:47 IREN Â· 1 week
+6:03 Ciena Â· 1 week
 6:19 Next story
 7:25 keppel-dc
 7:37 firmus
@@ -538,11 +538,11 @@ https://tv.leeheggan.tech</description>
       <itunes:image href="https://leeheggan-droid.github.io/dctv-podcast/cover.jpg"/>
     </item>
     <item>
-      <title>Japan Is Building 30 Substations for AI — All at Once</title>
+      <title>Japan Is Building 30 Substations for AI â€” All at Once</title>
       <link>https://www.youtube.com/watch?v=yO19xDc7FAE</link>
       <guid isPermaLink="false">dctv-ep03-yO19xDc7FAE</guid>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-      <description>AI anchors Claire and Wenjia wrap the day in Asia-Pacific data centres: Mitsubishi Estate's nine-point-three-billion-dollar first move into the sector, Japan's utilities committing to thirty new substations for AI load, KKR's cleared buyout of STT GDC as a new AI hall opens in Jaipur, NTT building the power before the campus in Thailand, and CDC's spend-now-earn-later balance sheet in Australia — plus TSMC's $265 billion and the IBM profit-warning counterweight.
+      <description>AI anchors Claire and Wenjia wrap the day in Asia-Pacific data centres: Mitsubishi Estate's nine-point-three-billion-dollar first move into the sector, Japan's utilities committing to thirty new substations for AI load, KKR's cleared buyout of STT GDC as a new AI hall opens in Jaipur, NTT building the power before the campus in Thailand, and CDC's spend-now-earn-later balance sheet in Australia â€” plus TSMC's $265 billion and the IBM profit-warning counterweight.
 
 Watch the channel live: https://tv.leeheggan.tech
 
@@ -556,11 +556,11 @@ DC TV is an AI-produced news programme. Claire and Wenjia are AI presenters; all
       <link>https://www.youtube.com/watch?v=E1TW2i-cRcg</link>
       <guid isPermaLink="false">dctv-ep02-E1TW2i-cRcg</guid>
       <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-      <description>DC TV — the AI-presented news channel for Asia-Pacific data centres.
+      <description>DC TV â€” the AI-presented news channel for Asia-Pacific data centres.
 
-Episode 2 (15 July 2026): our AI anchors Claire and Wenjia wrap the week's data-centre news across APAC — NEXTDC's A$2.3bn debt facility, AirTrunk's Sydney loan, Intel's $5.7bn Ireland expansion, Ferrovial's Madrid campus and more.
+Episode 2 (15 July 2026): our AI anchors Claire and Wenjia wrap the week's data-centre news across APAC â€” NEXTDC's A$2.3bn debt facility, AirTrunk's Sydney loan, Intel's $5.7bn Ireland expansion, Ferrovial's Madrid campus and more.
 
-Watch the live channel — with a live markets rail and rolling news crawl — at https://tv.leeheggan.tech
+Watch the live channel â€” with a live markets rail and rolling news crawl â€” at https://tv.leeheggan.tech
 
 Anchors are AI-generated. News is drawn from public reporting; b-roll is file footage unless captioned otherwise.</description>
       <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep02.mp3" length="8744108" type="audio/mpeg"/>
@@ -572,9 +572,9 @@ Anchors are AI-generated. News is drawn from public reporting; b-roll is file fo
       <link>https://www.youtube.com/watch?v=BmDiqxGqm9E</link>
       <guid isPermaLink="false">dctv-ep01-BmDiqxGqm9E</guid>
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-      <description>DC TV — the AI-presented news channel for Asia-Pacific data centres.
+      <description>DC TV â€” the AI-presented news channel for Asia-Pacific data centres.
 
-Episode 1 (14 July 2026): the week's data-centre news across APAC — capital, power, cooling and build-out — presented by our AI anchors, with figures and footage sourced from public reporting and the DC Weekly / dc-watch data lake.
+Episode 1 (14 July 2026): the week's data-centre news across APAC â€” capital, power, cooling and build-out â€” presented by our AI anchors, with figures and footage sourced from public reporting and the DC Weekly / dc-watch data lake.
 
 Anchors are AI-generated (AI-presented). More at https://leeheggan.tech
 

@@ -27,7 +27,7 @@ for n in sorted(VIDS, reverse=True):
     mj = f"{ROOT}/meta/{vid}.json"
     if not os.path.isfile(mp3):
         errors.append(f"missing {mp3}"); continue
-    meta = json.load(open(mj))
+    meta = json.load(open(mj, encoding="utf-8"))
     size = os.path.getsize(mp3)
     title = clean(meta.get("title") or f"DC TV Episode {n}", 250)
     desc = clean(meta.get("description") or f"DC TV episode {n}.")
@@ -68,5 +68,5 @@ feed = f"""<?xml version="1.0" encoding="UTF-8"?>
   </channel>
 </rss>
 """
-open(f"{ROOT}/feed.xml", "w").write(feed)
+open(f"{ROOT}/feed.xml", "w", encoding="utf-8").write(feed)
 print(f"feed.xml written: {len(items)} items")
