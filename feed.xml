@@ -5,8 +5,12 @@
     <link>https://tv.leeheggan.tech</link>
     <description>The weekly APAC data-centre wrap, AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 23:36:13 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 23:39:58 +0000</lastBuildDate>
     <itunes:author>DC TV</itunes:author>
+    <itunes:owner>
+      <itunes:name>DC TV</itunes:name>
+      <itunes:email>tv@leeheggan.tech</itunes:email>
+    </itunes:owner>
     <itunes:email>tv@leeheggan.tech</itunes:email>
     <managingEditor>tv@leeheggan.tech (DC TV)</managingEditor>
     <itunes:explicit>no</itunes:explicit>

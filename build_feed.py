@@ -54,6 +54,10 @@ feed = f"""<?xml version="1.0" encoding="UTF-8"?>
     <language>en</language>
     <lastBuildDate>{format_datetime(datetime.now(timezone.utc))}</lastBuildDate>
     <itunes:author>DC TV</itunes:author>
+    <itunes:owner>
+      <itunes:name>DC TV</itunes:name>
+      <itunes:email>tv@leeheggan.tech</itunes:email>
+    </itunes:owner>
     <itunes:email>tv@leeheggan.tech</itunes:email>
     <managingEditor>tv@leeheggan.tech (DC TV)</managingEditor>
     <itunes:explicit>no</itunes:explicit>
