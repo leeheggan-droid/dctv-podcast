@@ -5,7 +5,7 @@
     <link>https://tv.leeheggan.tech</link>
     <description>Hosted by Lee Heggan. The weekly AI-anchored wrap of Asia-Pacific data-centre news. Claire and Wenjia walk the biggest leases, builds, loans and market moves across APAC every week — every claim sourced and reviewed before air. Watch the show at tv.leeheggan.tech.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Nov 2026 23:33:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 23:43:47 +0000</lastBuildDate>
     <generator>dc-tv pipeline/podcast.py</generator>
     <atom:link href="https://leeheggan-droid.github.io/dctv-podcast/feed.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Lee Heggan</itunes:author>
@@ -22,7 +22,7 @@
     <itunes:category text="Technology" />
     <itunes:owner>
       <itunes:name>Lee Heggan</itunes:name>
-      <itunes:email>leeheggan@gmail.com</itunes:email>
+      <itunes:email>tv@leeheggan.tech</itunes:email>
     </itunes:owner>
     <item>
       <title>AirTrunk Secures A$4.25B Green Loan for Sydney SYD3</title>
