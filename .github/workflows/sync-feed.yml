@@ -29,5 +29,5 @@ jobs:
             git add feed.xml
             git commit -m 'Sync approved DC TV podcast feed'
             git push
+            gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
           fi
-          gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"

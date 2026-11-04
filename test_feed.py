@@ -23,6 +23,10 @@ class MirrorTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Empty'):
             mirror(feed(), b'<rss><channel/></rss>')
 
+    def test_rejects_empty_guid(self):
+        with self.assertRaisesRegex(ValueError, 'GUID'):
+            mirror(feed(), feed(guid=''))
+
 
 if __name__ == '__main__':
     unittest.main()

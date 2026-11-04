@@ -16,7 +16,7 @@ def mirror(previous: bytes, incoming: bytes) -> bytes:
     old, new = ET.fromstring(previous), ET.fromstring(incoming)
     current = new.findall('./channel/item')
     by_guid = {item.findtext('guid'): item for item in current}
-    if not current or None in by_guid or len(by_guid) != len(current):
+    if not current or any(not guid for guid in by_guid) or len(by_guid) != len(current):
         raise ValueError('Empty feed or missing/duplicate episode GUID')
     for item in old.findall('./channel/item'):
         replacement = by_guid.get(item.findtext('guid'))
