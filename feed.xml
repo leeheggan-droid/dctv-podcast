@@ -1,31 +1,222 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
-    <title>DC TV — APAC Data Centre News</title>
+    <title>DC TV with Lee Heggan — APAC Data Centre News</title>
     <link>https://tv.leeheggan.tech</link>
-    <description>The weekly APAC data-centre wrap, AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.</description>
+    <description>Hosted by Lee Heggan. The weekly AI-anchored wrap of Asia-Pacific data-centre news. Claire and Wenjia walk the biggest leases, builds, loans and market moves across APAC every week — every claim sourced and reviewed before air. Watch the show at tv.leeheggan.tech.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 23:39:58 +0000</lastBuildDate>
-    <itunes:author>DC TV</itunes:author>
-    <itunes:owner>
-      <itunes:name>DC TV</itunes:name>
-      <itunes:email>tv@leeheggan.tech</itunes:email>
-    </itunes:owner>
-    <itunes:email>tv@leeheggan.tech</itunes:email>
-    <managingEditor>tv@leeheggan.tech (DC TV)</managingEditor>
-    <itunes:explicit>no</itunes:explicit>
-    <itunes:category text="Technology"/>
-    <itunes:image href="https://leeheggan-droid.github.io/dctv-podcast/cover.jpg"/>
+    <lastBuildDate>Wed, 04 Nov 2026 23:33:54 +0000</lastBuildDate>
+    <generator>dc-tv pipeline/podcast.py</generator>
+    <atom:link href="https://leeheggan-droid.github.io/dctv-podcast/feed.xml" rel="self" type="application/rss+xml" />
+    <itunes:author>Lee Heggan</itunes:author>
+    <itunes:subtitle>DC TV with Lee Heggan — APAC Data Centre News</itunes:subtitle>
+    <itunes:summary>Hosted by Lee Heggan. The weekly AI-anchored wrap of Asia-Pacific data-centre news. Claire and Wenjia walk the biggest leases, builds, loans and market moves across APAC every week — every claim sourced and reviewed before air. Watch the show at tv.leeheggan.tech.</itunes:summary>
+    <itunes:type>episodic</itunes:type>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://media.leeheggan.tech/dc-tv/assets/podcast/cover.jpg" />
     <image>
-      <url>https://leeheggan-droid.github.io/dctv-podcast/cover.jpg</url>
-      <title>DC TV — APAC Data Centre News</title>
+      <url>https://media.leeheggan.tech/dc-tv/assets/podcast/cover.jpg</url>
+      <title>DC TV with Lee Heggan — APAC Data Centre News</title>
       <link>https://tv.leeheggan.tech</link>
     </image>
+    <itunes:category text="Technology" />
+    <itunes:owner>
+      <itunes:name>Lee Heggan</itunes:name>
+      <itunes:email>leeheggan@gmail.com</itunes:email>
+    </itunes:owner>
+    <item>
+      <title>AirTrunk Secures A$4.25B Green Loan for Sydney SYD3</title>
+      <link>https://www.youtube.com/watch?v=MJkyupUvbg4</link>
+      <description>The weekly APAC data-centre wrap for 2026-11-01.
+
+AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
+
+Sources:
+https://airtrunk.com/ja/airtrunk-secures-a4-25b-green-loan-for-syd3-western-sydney-expansion-supporting-australias-digital-economy/
+https://www.bouygues-construction.com/en/about-us/news/bouygues-construction-secures-expanded-contract-for-airtrunks-major-hyperscale-data-centre-campus-in-australia
+https://airtrunk.com/airtrunk-closes-a16-billion-ex-japan-sustainable-financing-to-accelerate-apj-growth-and-impact/
+https://www.multiplex.global/news/work-commences-on-nextdcs-350mw-western-sydney-data-centre/
+https://greensquaredc.com/news/greensquare-syd1-now-operational-following-adaptive-reuse-of-1995-data-centre/
+https://www.thaigov.go.th/th/news/170597
+https://www.nesdc.go.th/ifs-27102569/
+https://www.streetinsider.com/Reuters/Thailand%2Bsets%2Bnew%2Brules%2Bfor%2Bdata%2Bcentres%2Bas%2Bapplications%2Bsurge/27236851.html
+https://osos.boi.go.th/article_attach/PR8_2569EN.pdf
+https://www.thaigov.go.th/en/news/168500
+https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/factsheets/2025/launch-of-second-data-centre
+https://www.bloomberg.com/news/articles/2026-10-28/nvidia-backed-firm-launches-3-1-billion-gpu-loan-into-market
+https://apigateway.adx.ae/adx/cdn/1.0/content/download/5244335
+https://zankore.com/zankore-expands-southeast-asias-ai-compute-infrastructure-with-nvidia
+https://hansard.parlimen.gov.my/hansard/dewan-rakyat/2026-10-28?search=undefined
+https://www.edgeprop.my/content/1918056/states-without-sufficient-water-supply-cannot-host-data-centres-says-johari-ghani
+https://www.mida.gov.my/mida-news/miti-finalising-sustainable-development-guidelines-for-data-centres/
+https://www.miti.gov.my/miti/resources/Media%20Release/%5BFINAL%5D_Siaran_Media_MITI_dan_KD_Dasar_Pelaburan_Pusat_Data_2025-07-22.pdf
+https://www.nadma.gov.my/bi/media-en/news/7114-no-data-centre-approval-without-enough-water-power-says-selangor-mb
+https://www.larsentoubro.com/pressreleases/2026/2026-10-28-vyomaai-breaks-ground-on-52-mw-ai-ready-data-center-in-chennai
+https://www.larsentoubro.com/pressreleases/2026/2026-08-13-larsen-toubro-secures-mega-order-as-part-of-a-strategic-partnership-with-together-ai-to-build-india-s-largest-nvidia-b300-ai-factory
+https://www.larsentoubro.com/pressreleases/2024-12-12-lt-cloudfiniti-onboards-its-first-major-customer
+https://blogs.vultr.com/chennai-cloud-data-center-region
+https://finance.yahoo.com/markets/stocks/articles/vertiv-stock-safer-riskier-ago-143603730.html
+https://www.fidelity.com/news/article/us-markets/202610301731RTRSNEWSCOMBINED_L6N46G1C0_1
+https://news.skhynix.com/en/q3-2026-business-results/
+https://www.prnewswire.com/apac/news-releases/oneqode-signs-14-mw-ai-capacity-agreement-with-adaniconnex-with-a-path-to-114-mw-302920290.html
+https://www.sttgdc.com/jp-en/newsroom/sttgdc-secures-jpy93-billion-green-loan-support-expansion-tokyo-data-centre-campus
+https://www.datacenterdynamics.com/en/news/sttgdc-secures-590m-green-loan-for-tokyo-data-centers/
+https://www.sttgdc.com/jp-en/newsroom/stt-gdc-commences-construction-second-data-centre-tokyo
+https://www.blueleafenergy.com/jp/press/macquarie-and-blueleaf-energy-deepen-relationship-with-microsoft-through-new-power-purchase-agreements-in-japan/
+https://www.gov.uk/government/publications/data-centre-covenant/the-data-centre-covenant
+https://www.gov.uk/government/publications/draft-national-policy-statement-for-data-centres
+https://www.bloomberg.com/news/articles/2026-10-28/banks-shelve-bond-sale-for-anthropic-tied-texas-data-center
+https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit
+https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits
+https://www.datacenterdynamics.com/en/news/tpg-eyes-uk-data-center-firm-ark-report/
+https://www.datacenterdynamics.com/en/news/ark-dc-to-add-new-building-to-longcross-data-center-campus-outside-london-uk/
+https://metr.org/time-horizons/
+https://www.booster.tech/booster-k1/
+https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations
+
+https://tv.leeheggan.tech
+
+#datacenters #AI #APAC #news</description>
+      <content:encoded>&lt;p&gt;The weekly APAC data-centre wrap for 2026-11-01.&lt;/p&gt;
+&lt;p&gt;AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.&lt;/p&gt;
+&lt;p&gt;Sources:&lt;br/&gt;https://airtrunk.com/ja/airtrunk-secures-a4-25b-green-loan-for-syd3-western-sydney-expansion-supporting-australias-digital-economy/&lt;br/&gt;https://www.bouygues-construction.com/en/about-us/news/bouygues-construction-secures-expanded-contract-for-airtrunks-major-hyperscale-data-centre-campus-in-australia&lt;br/&gt;https://airtrunk.com/airtrunk-closes-a16-billion-ex-japan-sustainable-financing-to-accelerate-apj-growth-and-impact/&lt;br/&gt;https://www.multiplex.global/news/work-commences-on-nextdcs-350mw-western-sydney-data-centre/&lt;br/&gt;https://greensquaredc.com/news/greensquare-syd1-now-operational-following-adaptive-reuse-of-1995-data-centre/&lt;br/&gt;https://www.thaigov.go.th/th/news/170597&lt;br/&gt;https://www.nesdc.go.th/ifs-27102569/&lt;br/&gt;https://www.streetinsider.com/Reuters/Thailand%2Bsets%2Bnew%2Brules%2Bfor%2Bdata%2Bcentres%2Bas%2Bapplications%2Bsurge/27236851.html&lt;br/&gt;https://osos.boi.go.th/article_attach/PR8_2569EN.pdf&lt;br/&gt;https://www.thaigov.go.th/en/news/168500&lt;br/&gt;https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/factsheets/2025/launch-of-second-data-centre&lt;br/&gt;https://www.bloomberg.com/news/articles/2026-10-28/nvidia-backed-firm-launches-3-1-billion-gpu-loan-into-market&lt;br/&gt;https://apigateway.adx.ae/adx/cdn/1.0/content/download/5244335&lt;br/&gt;https://zankore.com/zankore-expands-southeast-asias-ai-compute-infrastructure-with-nvidia&lt;br/&gt;https://hansard.parlimen.gov.my/hansard/dewan-rakyat/2026-10-28?search=undefined&lt;br/&gt;https://www.edgeprop.my/content/1918056/states-without-sufficient-water-supply-cannot-host-data-centres-says-johari-ghani&lt;br/&gt;https://www.mida.gov.my/mida-news/miti-finalising-sustainable-development-guidelines-for-data-centres/&lt;br/&gt;https://www.miti.gov.my/miti/resources/Media%20Release/%5BFINAL%5D_Siaran_Media_MITI_dan_KD_Dasar_Pelaburan_Pusat_Data_2025-07-22.pdf&lt;br/&gt;https://www.nadma.gov.my/bi/media-en/news/7114-no-data-centre-approval-without-enough-water-power-says-selangor-mb&lt;br/&gt;https://www.larsentoubro.com/pressreleases/2026/2026-10-28-vyomaai-breaks-ground-on-52-mw-ai-ready-data-center-in-chennai&lt;br/&gt;https://www.larsentoubro.com/pressreleases/2026/2026-08-13-larsen-toubro-secures-mega-order-as-part-of-a-strategic-partnership-with-together-ai-to-build-india-s-largest-nvidia-b300-ai-factory&lt;br/&gt;https://www.larsentoubro.com/pressreleases/2024-12-12-lt-cloudfiniti-onboards-its-first-major-customer&lt;br/&gt;https://blogs.vultr.com/chennai-cloud-data-center-region&lt;br/&gt;https://finance.yahoo.com/markets/stocks/articles/vertiv-stock-safer-riskier-ago-143603730.html&lt;br/&gt;https://www.fidelity.com/news/article/us-markets/202610301731RTRSNEWSCOMBINED_L6N46G1C0_1&lt;br/&gt;https://news.skhynix.com/en/q3-2026-business-results/&lt;br/&gt;https://www.prnewswire.com/apac/news-releases/oneqode-signs-14-mw-ai-capacity-agreement-with-adaniconnex-with-a-path-to-114-mw-302920290.html&lt;br/&gt;https://www.sttgdc.com/jp-en/newsroom/sttgdc-secures-jpy93-billion-green-loan-support-expansion-tokyo-data-centre-campus&lt;br/&gt;https://www.datacenterdynamics.com/en/news/sttgdc-secures-590m-green-loan-for-tokyo-data-centers/&lt;br/&gt;https://www.sttgdc.com/jp-en/newsroom/stt-gdc-commences-construction-second-data-centre-tokyo&lt;br/&gt;https://www.blueleafenergy.com/jp/press/macquarie-and-blueleaf-energy-deepen-relationship-with-microsoft-through-new-power-purchase-agreements-in-japan/&lt;br/&gt;https://www.gov.uk/government/publications/data-centre-covenant/the-data-centre-covenant&lt;br/&gt;https://www.gov.uk/government/publications/draft-national-policy-statement-for-data-centres&lt;br/&gt;https://www.bloomberg.com/news/articles/2026-10-28/banks-shelve-bond-sale-for-anthropic-tied-texas-data-center&lt;br/&gt;https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit&lt;br/&gt;https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits&lt;br/&gt;https://www.datacenterdynamics.com/en/news/tpg-eyes-uk-data-center-firm-ark-report/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/ark-dc-to-add-new-building-to-longcross-data-center-campus-outside-london-uk/&lt;br/&gt;https://metr.org/time-horizons/&lt;br/&gt;https://www.booster.tech/booster-k1/&lt;br/&gt;https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations&lt;/p&gt;
+&lt;p&gt;https://tv.leeheggan.tech&lt;/p&gt;
+&lt;p&gt;#datacenters #AI #APAC #news&lt;/p&gt;</content:encoded>
+      <enclosure url="https://media.leeheggan.tech/dc-tv/assets/podcast/audio/ep17.mp3" length="13086483" type="audio/mpeg" />
+      <guid isPermaLink="false">dctv-episode-17</guid>
+      <pubDate>Sun, 01 Nov 2026 09:00:00 +0000</pubDate>
+      <itunes:duration>13:38</itunes:duration>
+      <itunes:episode>17</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>The weekly APAC data-centre wrap for 2026-11-01.
+
+AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
+
+Sources:
+https://airtrunk.com/ja/airtrunk-secures-a4-25b-green-loan-for-syd3-western-sydney-expansion-supporting-australias-digital-economy/
+https://www.bouygues-construction.com/en/about-us/news/bouygues-construction-secures-expanded-contract-for-airtrunks-major-hyperscale-data-centre-campus-in-australia
+https://airtrunk.com/airtrunk-closes-a16-billion-ex-japan-sustainable-financing-to-accelerate-apj-growth-and-impact/
+https://www.multiplex.global/news/work-commences-on-nextdcs-350mw-western-sydney-data-centre/
+https://greensquaredc.com/news/greensquare-syd1-now-operational-following-adaptive-reuse-of-1995-data-centre/
+https://www.thaigov.go.th/th/news/170597
+https://www.nesdc.go.th/ifs-27102569/
+https://www.streetinsider.com/Reuters/Thailand%2Bsets%2Bnew%2Brules%2Bfor%2Bdata%2Bcentres%2Bas%2Bapplications%2Bsurge/27236851.html
+https://osos.boi.go.th/article_attach/PR8_2569EN.pdf
+https://www.thaigov.go.th/en/news/168500
+https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/factsheets/2025/launch-of-second-data-centre
+https://www.bloomberg.com/news/articles/2026-10-28/nvidia-backed-firm-launches-3-1-billion-gpu-loan-into-market
+https://apigateway.adx.ae/adx/cdn/1.0/content/download/5244335
+https://zankore.com/zankore-expands-southeast-asias-ai-compute-infrastructure-with-nvidia
+https://hansard.parlimen.gov.my/hansard/dewan-rakyat/2026-10-28?search=undefined
+https://www.edgeprop.my/content/1918056/states-without-sufficient-water-supply-cannot-host-data-centres-says-johari-ghani
+https://www.mida.gov.my/mida-news/miti-finalising-sustainable-development-guidelines-for-data-centres/
+https://www.miti.gov.my/miti/resources/Media%20Release/%5BFINAL%5D_Siaran_Media_MITI_dan_KD_Dasar_Pelaburan_Pusat_Data_2025-07-22.pdf
+https://www.nadma.gov.my/bi/media-en/news/7114-no-data-centre-approval-without-enough-water-power-says-selangor-mb
+https://www.larsentoubro.com/pressreleases/2026/2026-10-28-vyomaai-breaks-ground-on-52-mw-ai-ready-data-center-in-chennai
+https://www.larsentoubro.com/pressreleases/2026/2026-08-13-larsen-toubro-secures-mega-order-as-part-of-a-strategic-partnership-with-together-ai-to-build-india-s-largest-nvidia-b300-ai-factory
+https://www.larsentoubro.com/pressreleases/2024-12-12-lt-cloudfiniti-onboards-its-first-major-customer
+https://blogs.vultr.com/chennai-cloud-data-center-region
+https://finance.yahoo.com/markets/stocks/articles/vertiv-stock-safer-riskier-ago-143603730.html
+https://www.fidelity.com/news/article/us-markets/202610301731RTRSNEWSCOMBINED_L6N46G1C0_1
+https://news.skhynix.com/en/q3-2026-business-results/
+https://www.prnewswire.com/apac/news-releases/oneqode-signs-14-mw-ai-capacity-agreement-with-adaniconnex-with-a-path-to-114-mw-302920290.html
+https://www.sttgdc.com/jp-en/newsroom/sttgdc-secures-jpy93-billion-green-loan-support-expansion-tokyo-data-centre-campus
+https://www.datacenterdynamics.com/en/news/sttgdc-secures-590m-green-loan-for-tokyo-data-centers/
+https://www.sttgdc.com/jp-en/newsroom/stt-gdc-commences-construction-second-data-centre-tokyo
+https://www.blueleafenergy.com/jp/press/macquarie-and-blueleaf-energy-deepen-relationship-with-microsoft-through-new-power-purchase-agreements-in-japan/
+https://www.gov.uk/government/publications/data-centre-covenant/the-data-centre-covenant
+https://www.gov.uk/government/publications/draft-national-policy-statement-for-data-centres
+https://www.bloomberg.com/news/articles/2026-10-28/banks-shelve-bond-sale-for-anthropic-tied-texas-data-center
+https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit
+https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits
+https://www.datacenterdynamics.com/en/news/tpg-eyes-uk-data-center-firm-ark-report/
+https://www.datacenterdynamics.com/en/news/ark-dc-to-add-new-building-to-longcross-data-center-campus-outside-london-uk/
+https://metr.org/time-horizons/
+https://www.booster.tech/booster-k1/
+https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations
+
+https://tv.leeheggan.tech
+
+#datacenters #AI #APAC #news</itunes:summary>
+    </item>
+    <item>
+      <title>NEXTDC's power delay and AirTrunk's A$4.25bn loan</title>
+      <link>https://www.youtube.com/watch?v=lB5SBwYy5ZQ</link>
+      <description>The weekly APAC data-centre wrap for 2026-10-27.
+
+AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
+
+Sources:
+https://webdisclosure.com/press-release/nextdc-limited-etr-eqs-adhoc-nextdc-limited-m3-melbourne-power-delay-and-revised-fy27-guidance-wY2LCsVoOkJ
+https://ditrolicenergy.com/my/sjrec-project-bankability-financing-framework-siew-2026/
+https://ditrolicenergy.com/my/ditrolic-energy-awarded-singapores-conditional-approval-for-600-mw-malaysia-singapore-cross-border-green-electricity-project-under-sjrec-initiative/
+https://www.ema.gov.sg/news-events/news/media-releases/2026/ema-grants-conditional-approvals-900mw-electricity-trade-between-peninsular-malaysia-singapore
+https://airtrunk.com/airtrunk-secures-a4-25b-green-loan-for-syd3-western-sydney-expansion-supporting-australias-digital-economy/
+https://www.bouygues-construction.com/en/about-us/news/bouygues-construction-secures-expanded-contract-for-airtrunks-major-hyperscale-data-centre-campus-in-australia
+https://www.linkedin.com/posts/airtrunk_airtrunk-datacentre-hyperscale-activity-7442789273000603648-o8o3
+https://www.pib.gov.in/PressReleasePage.aspx?PRID=2328234&amp;lang=2&amp;reg=3
+https://blogs.vultr.com/chennai-cloud-data-center-region
+https://cjenc.co.kr/kr/information/report-view?idx=351&amp;pageIndex=1&amp;pageSize=10&amp;rnum=1&amp;searGubun=report&amp;searchCondition=&amp;searchKeyword=
+https://www.chief.com.tw/announce/news/20261020news/
+https://links.sgx.com/FileOpen/KDCR%203Q%202026%20Operational%20Updates.ashx?App=Announcement&amp;FileID=907897
+https://newsroom.equinix.com/2026-10-21-Equinix-Opens-Innovation-Centers-Globally-to-Accelerate-Enterprise-Infrastructure-Deployments
+https://blog.equinix.com/blog/2026/05/07/the-anatomy-of-a-direct-to-chip-liquid-cooling-system/
+https://blog.equinix.com/blog/2026/10/21/inside-epic-where-enterprises-test-liquid-cooling-before-they-scale-ai/
+https://www.entergy.com/news/entergy-arkansas-announces-enhanced-partnership-at-google-west-memphis-campus-delivering-at-least-500m-in-new-savings-for-all-customers
+https://apps.apsc.arkansas.gov/pdf/26/26-003-U_96_1.pdf
+https://apps.apsc.arkansas.gov/pdf/26/26-003-U_97_1.pdf
+https://developers.openai.com/api/docs/changelog
+https://gxologistics.gcs-web.com/news-releases/news-release-details/gxo-and-agility-robotics-expand-partnership-accelerate
+
+https://tv.leeheggan.tech
+
+#datacenters #AI #APAC #news</description>
+      <content:encoded>&lt;p&gt;The weekly APAC data-centre wrap for 2026-10-27.&lt;/p&gt;
+&lt;p&gt;AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.&lt;/p&gt;
+&lt;p&gt;Sources:&lt;br/&gt;https://webdisclosure.com/press-release/nextdc-limited-etr-eqs-adhoc-nextdc-limited-m3-melbourne-power-delay-and-revised-fy27-guidance-wY2LCsVoOkJ&lt;br/&gt;https://ditrolicenergy.com/my/sjrec-project-bankability-financing-framework-siew-2026/&lt;br/&gt;https://ditrolicenergy.com/my/ditrolic-energy-awarded-singapores-conditional-approval-for-600-mw-malaysia-singapore-cross-border-green-electricity-project-under-sjrec-initiative/&lt;br/&gt;https://www.ema.gov.sg/news-events/news/media-releases/2026/ema-grants-conditional-approvals-900mw-electricity-trade-between-peninsular-malaysia-singapore&lt;br/&gt;https://airtrunk.com/airtrunk-secures-a4-25b-green-loan-for-syd3-western-sydney-expansion-supporting-australias-digital-economy/&lt;br/&gt;https://www.bouygues-construction.com/en/about-us/news/bouygues-construction-secures-expanded-contract-for-airtrunks-major-hyperscale-data-centre-campus-in-australia&lt;br/&gt;https://www.linkedin.com/posts/airtrunk_airtrunk-datacentre-hyperscale-activity-7442789273000603648-o8o3&lt;br/&gt;https://www.pib.gov.in/PressReleasePage.aspx?PRID=2328234&amp;amp;lang=2&amp;amp;reg=3&lt;br/&gt;https://blogs.vultr.com/chennai-cloud-data-center-region&lt;br/&gt;https://cjenc.co.kr/kr/information/report-view?idx=351&amp;amp;pageIndex=1&amp;amp;pageSize=10&amp;amp;rnum=1&amp;amp;searGubun=report&amp;amp;searchCondition=&amp;amp;searchKeyword=&lt;br/&gt;https://www.chief.com.tw/announce/news/20261020news/&lt;br/&gt;https://links.sgx.com/FileOpen/KDCR%203Q%202026%20Operational%20Updates.ashx?App=Announcement&amp;amp;FileID=907897&lt;br/&gt;https://newsroom.equinix.com/2026-10-21-Equinix-Opens-Innovation-Centers-Globally-to-Accelerate-Enterprise-Infrastructure-Deployments&lt;br/&gt;https://blog.equinix.com/blog/2026/05/07/the-anatomy-of-a-direct-to-chip-liquid-cooling-system/&lt;br/&gt;https://blog.equinix.com/blog/2026/10/21/inside-epic-where-enterprises-test-liquid-cooling-before-they-scale-ai/&lt;br/&gt;https://www.entergy.com/news/entergy-arkansas-announces-enhanced-partnership-at-google-west-memphis-campus-delivering-at-least-500m-in-new-savings-for-all-customers&lt;br/&gt;https://apps.apsc.arkansas.gov/pdf/26/26-003-U_96_1.pdf&lt;br/&gt;https://apps.apsc.arkansas.gov/pdf/26/26-003-U_97_1.pdf&lt;br/&gt;https://developers.openai.com/api/docs/changelog&lt;br/&gt;https://gxologistics.gcs-web.com/news-releases/news-release-details/gxo-and-agility-robotics-expand-partnership-accelerate&lt;/p&gt;
+&lt;p&gt;https://tv.leeheggan.tech&lt;/p&gt;
+&lt;p&gt;#datacenters #AI #APAC #news&lt;/p&gt;</content:encoded>
+      <enclosure url="https://media.leeheggan.tech/dc-tv/assets/podcast/audio/ep16.mp3" length="10436883" type="audio/mpeg" />
+      <guid isPermaLink="false">dctv-episode-16</guid>
+      <pubDate>Tue, 27 Oct 2026 22:00:29 +0000</pubDate>
+      <itunes:duration>10:52</itunes:duration>
+      <itunes:episode>16</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>The weekly APAC data-centre wrap for 2026-10-27.
+
+AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
+
+Sources:
+https://webdisclosure.com/press-release/nextdc-limited-etr-eqs-adhoc-nextdc-limited-m3-melbourne-power-delay-and-revised-fy27-guidance-wY2LCsVoOkJ
+https://ditrolicenergy.com/my/sjrec-project-bankability-financing-framework-siew-2026/
+https://ditrolicenergy.com/my/ditrolic-energy-awarded-singapores-conditional-approval-for-600-mw-malaysia-singapore-cross-border-green-electricity-project-under-sjrec-initiative/
+https://www.ema.gov.sg/news-events/news/media-releases/2026/ema-grants-conditional-approvals-900mw-electricity-trade-between-peninsular-malaysia-singapore
+https://airtrunk.com/airtrunk-secures-a4-25b-green-loan-for-syd3-western-sydney-expansion-supporting-australias-digital-economy/
+https://www.bouygues-construction.com/en/about-us/news/bouygues-construction-secures-expanded-contract-for-airtrunks-major-hyperscale-data-centre-campus-in-australia
+https://www.linkedin.com/posts/airtrunk_airtrunk-datacentre-hyperscale-activity-7442789273000603648-o8o3
+https://www.pib.gov.in/PressReleasePage.aspx?PRID=2328234&amp;lang=2&amp;reg=3
+https://blogs.vultr.com/chennai-cloud-data-center-region
+https://cjenc.co.kr/kr/information/report-view?idx=351&amp;pageIndex=1&amp;pageSize=10&amp;rnum=1&amp;searGubun=report&amp;searchCondition=&amp;searchKeyword=
+https://www.chief.com.tw/announce/news/20261020news/
+https://links.sgx.com/FileOpen/KDCR%203Q%202026%20Operational%20Updates.ashx?App=Announcement&amp;FileID=907897
+https://newsroom.equinix.com/2026-10-21-Equinix-Opens-Innovation-Centers-Globally-to-Accelerate-Enterprise-Infrastructure-Deployments
+https://blog.equinix.com/blog/2026/05/07/the-anatomy-of-a-direct-to-chip-liquid-cooling-system/
+https://blog.equinix.com/blog/2026/10/21/inside-epic-where-enterprises-test-liquid-cooling-before-they-scale-ai/
+https://www.entergy.com/news/entergy-arkansas-announces-enhanced-partnership-at-google-west-memphis-campus-delivering-at-least-500m-in-new-savings-for-all-customers
+https://apps.apsc.arkansas.gov/pdf/26/26-003-U_96_1.pdf
+https://apps.apsc.arkansas.gov/pdf/26/26-003-U_97_1.pdf
+https://developers.openai.com/api/docs/changelog
+https://gxologistics.gcs-web.com/news-releases/news-release-details/gxo-and-agility-robotics-expand-partnership-accelerate
+
+https://tv.leeheggan.tech
+
+#datacenters #AI #APAC #news</itunes:summary>
+    </item>
     <item>
       <title>DigiCo's 71MW Sydney Lease Leads APAC Data Centre News</title>
       <link>https://www.youtube.com/watch?v=UBHa00CwaZs</link>
-      <guid isPermaLink="false">dctv-ep15-UBHa00CwaZs</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
       <description>The weekly APAC data-centre wrap for 2026-10-18.
 
 AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
@@ -82,15 +273,80 @@ https://tv.leeheggan.tech
 #datacenters #AI #APAC #news
 
 Location map: Google Maps. Imagery ©2026 Vexcel Imaging US, Inc.; Imagery ©2026 Airbus, Maxar Technologies, Vexcel Imaging US, Inc.; Map data ©2026 Google. Captured 18 October 2026; satellite imagery date unknown.</description>
-      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep15.mp3" length="10191788" type="audio/mpeg"/>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://leeheggan-droid.github.io/dctv-podcast/cover.jpg"/>
+      <content:encoded>&lt;p&gt;The weekly APAC data-centre wrap for 2026-10-18.&lt;/p&gt;
+&lt;p&gt;AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.&lt;/p&gt;
+&lt;p&gt;Chapters:&lt;br/&gt;0:00 Open&lt;br/&gt;0:33 DigiCo Infrastructure REIT&lt;br/&gt;1:48 AirTrunk&lt;br/&gt;3:02 DayOne Data Centers Limited&lt;br/&gt;4:05 Colt Data Centre Services&lt;br/&gt;5:25 SM+&lt;br/&gt;6:40 Markets check&lt;br/&gt;7:26 Ciena&lt;br/&gt;7:38 Coherent&lt;br/&gt;8:18 NTT Data Group&lt;br/&gt;8:28 Digital Realty&lt;br/&gt;8:41 China Mobile&lt;br/&gt;8:59 CapitaLand India Trust&lt;br/&gt;9:12 AI &amp;amp; ROBOTICS&lt;br/&gt;10:23 Sign-off&lt;br/&gt;0:15 DigiCo Infrastructure REIT&lt;br/&gt;1:28 AirTrunk&lt;br/&gt;2:40 DayOne Data Centers Limited&lt;br/&gt;3:43 Colt Data Centre Services&lt;br/&gt;5:01 SM+&lt;br/&gt;6:15 Markets check&lt;br/&gt;7:00 Ciena&lt;br/&gt;7:12 Coherent&lt;br/&gt;7:52 NTT Data Group&lt;br/&gt;8:02 Digital Realty&lt;br/&gt;8:14 China Mobile&lt;br/&gt;8:32 CapitaLand India Trust&lt;br/&gt;9:54 Sign-off&lt;/p&gt;
+&lt;p&gt;Sources:&lt;br/&gt;https://www.datacenterdynamics.com/en/news/digico-signs-71mw-lease-for-sydney-data-center-with-unnamed-tech-firm/&lt;br/&gt;https://w.media/digico-secures-71mw-sydney-data-centre-contract-as-it-prioritises-australia/&lt;br/&gt;https://theedgemalaysia.com/node/821678&lt;br/&gt;https://w.media/dayone-secures-us3-7-billion-loan-for-malaysia-expansion/&lt;br/&gt;https://w.media/colt-dcs-and-rmz-commence-construction-on-third-mumbai-data-center/&lt;br/&gt;https://w.media/sm-to-acquire-princeton-digital-groups-enterprise-data-center-business-in-indonesia/&lt;br/&gt;https://smplus.com/sm-to-acquire-princeton-digital-groups-enterprise-data-centre-business-in-indonesia/&lt;br/&gt;https://finance.yahoo.com/technology/ai/articles/cienas-revenue-could-grow-40-175000080.html&lt;br/&gt;https://finance.yahoo.com/m/e0ef6d90-1f3d-3925-9be0-e5d8d98435b3/chip-stocks-tumble-on-ai.html&lt;br/&gt;https://www.datacenterdynamics.com/en/news/ntt-to-build-63bn-data-center-for-anthropic-in-japan-report/&lt;br/&gt;https://w.media/digital-realty-completes-structural-milestone-at-south-korean-data-center/&lt;br/&gt;https://nm.people.com.cn/n2/2026/1012/c196667-41719090.html&lt;br/&gt;https://w.media/capitaland-investments-unveils-new-data-center-in-chennai/&lt;br/&gt;https://deepmind.google/models/model-cards/gemini-4-argon/&lt;br/&gt;https://www.agilityrobotics.com/content/agility-robotics-selects-nyobolt-as-its-ultra-fast-charging-battery-technology-partner-for-digit-5&lt;/p&gt;
+&lt;p&gt;https://tv.leeheggan.tech&lt;/p&gt;
+&lt;p&gt;#datacenters #AI #APAC #news&lt;/p&gt;
+&lt;p&gt;Location map: Google Maps. Imagery ©2026 Vexcel Imaging US, Inc.; Imagery ©2026 Airbus, Maxar Technologies, Vexcel Imaging US, Inc.; Map data ©2026 Google. Captured 18 October 2026; satellite imagery date unknown.&lt;/p&gt;</content:encoded>
+      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep15.mp3" length="10191788" type="audio/mpeg" />
+      <guid isPermaLink="false">dctv-ep15-UBHa00CwaZs</guid>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>10:37</itunes:duration>
+      <itunes:episode>15</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>The weekly APAC data-centre wrap for 2026-10-18.
+
+AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
+
+Chapters:
+0:00 Open
+0:33 DigiCo Infrastructure REIT
+1:48 AirTrunk
+3:02 DayOne Data Centers Limited
+4:05 Colt Data Centre Services
+5:25 SM+
+6:40 Markets check
+7:26 Ciena
+7:38 Coherent
+8:18 NTT Data Group
+8:28 Digital Realty
+8:41 China Mobile
+8:59 CapitaLand India Trust
+9:12 AI &amp; ROBOTICS
+10:23 Sign-off
+0:15 DigiCo Infrastructure REIT
+1:28 AirTrunk
+2:40 DayOne Data Centers Limited
+3:43 Colt Data Centre Services
+5:01 SM+
+6:15 Markets check
+7:00 Ciena
+7:12 Coherent
+7:52 NTT Data Group
+8:02 Digital Realty
+8:14 China Mobile
+8:32 CapitaLand India Trust
+9:54 Sign-off
+
+Sources:
+https://www.datacenterdynamics.com/en/news/digico-signs-71mw-lease-for-sydney-data-center-with-unnamed-tech-firm/
+https://w.media/digico-secures-71mw-sydney-data-centre-contract-as-it-prioritises-australia/
+https://theedgemalaysia.com/node/821678
+https://w.media/dayone-secures-us3-7-billion-loan-for-malaysia-expansion/
+https://w.media/colt-dcs-and-rmz-commence-construction-on-third-mumbai-data-center/
+https://w.media/sm-to-acquire-princeton-digital-groups-enterprise-data-center-business-in-indonesia/
+https://smplus.com/sm-to-acquire-princeton-digital-groups-enterprise-data-centre-business-in-indonesia/
+https://finance.yahoo.com/technology/ai/articles/cienas-revenue-could-grow-40-175000080.html
+https://finance.yahoo.com/m/e0ef6d90-1f3d-3925-9be0-e5d8d98435b3/chip-stocks-tumble-on-ai.html
+https://www.datacenterdynamics.com/en/news/ntt-to-build-63bn-data-center-for-anthropic-in-japan-report/
+https://w.media/digital-realty-completes-structural-milestone-at-south-korean-data-center/
+https://nm.people.com.cn/n2/2026/1012/c196667-41719090.html
+https://w.media/capitaland-investments-unveils-new-data-center-in-chennai/
+https://deepmind.google/models/model-cards/gemini-4-argon/
+https://www.agilityrobotics.com/content/agility-robotics-selects-nyobolt-as-its-ultra-fast-charging-battery-technology-partner-for-digit-5
+
+https://tv.leeheggan.tech
+
+#datacenters #AI #APAC #news
+
+Location map: Google Maps. Imagery ©2026 Vexcel Imaging US, Inc.; Imagery ©2026 Airbus, Maxar Technologies, Vexcel Imaging US, Inc.; Map data ©2026 Google. Captured 18 October 2026; satellite imagery date unknown.</itunes:summary>
     </item>
     <item>
       <title>Meta and OpenAI Buy Firmus Compute, Backed by $10B Blackstone Debt</title>
       <link>https://www.youtube.com/watch?v=Xig_F-sxx4E</link>
-      <guid isPermaLink="false">dctv-ep14-Xig_F-sxx4E</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
       <description>The daily APAC data-centre wrap for 2026-10-04.
 
 AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
@@ -127,15 +383,59 @@ https://www.businesstimes.com.sg/startups-tech/technology/broadcom-amassing-us60
 https://tv.leeheggan.tech
 
 #datacenters #AI #APAC #news</description>
-      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep14.mp3" length="11703212" type="audio/mpeg"/>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://leeheggan-droid.github.io/dctv-podcast/cover.jpg"/>
+      <content:encoded>&lt;p&gt;The daily APAC data-centre wrap for 2026-10-04.&lt;/p&gt;
+&lt;p&gt;AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.&lt;/p&gt;
+&lt;p&gt;Chapters:&lt;br/&gt;0:00 Open&lt;br/&gt;0:24 firmus&lt;br/&gt;2:07 microsoft&lt;br/&gt;3:10 bdx&lt;br/&gt;4:19 goodman&lt;br/&gt;5:13 aws&lt;br/&gt;6:05 Markets check&lt;br/&gt;7:44 Tencent&lt;br/&gt;7:55 Japan power + Dell&lt;br/&gt;8:24 Queensland deal&lt;br/&gt;8:48 Oracle&lt;br/&gt;9:15 Broadcom debt package&lt;br/&gt;11:15 Sign-off&lt;/p&gt;
+&lt;p&gt;Sources:&lt;br/&gt;https://www.submarinenetworks.com/en/nv/insights/firmus-partners-with-meta-and-openai-on-ai-infrastructure&lt;br/&gt;https://w.media/firmus-expands-meta-ai-infrastructure-deal-into-southeast-asia/&lt;br/&gt;https://w.media/microsoft-gets-approval-for-au1-26bn-96mw-sydney-data-centre/&lt;br/&gt;https://w.media/indonesia-pauses-bdx-data-centers-construction-pending-required-permits-and-eia-report/&lt;br/&gt;https://capacityglobal.com/news/goodman-cancels-data-centre-in-sydney-suburb/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/goodman-withdraws-application-for-90mw-data-center-campus-in-sydney-australia/&lt;br/&gt;https://w.media/amazon-buys-2-million-sq-ft-land-in-selangor-malaysia-to-build-data-center/&lt;br/&gt;https://w.media/tencent-leases-100000-ai-chips-from-oracle-for-us-7-billion-report/&lt;br/&gt;https://www.afr.com/companies/financial-services/macquarie-capital-takes-zerra-stake-after-30b-queensland-data-centre-deal-20261003-p6129z?ref=rss&amp;amp;utm_medium=rss&amp;amp;utm_source=rss_feed&lt;br/&gt;https://baxtel.com/news/hyperdc-files-plans-for-400mw-data-center-campus-west-of-melbourne&lt;br/&gt;https://capacityglobal.com/news/165bn-project-jupiter-what-oracles-force-majeure-notice-means-for-ai-data-centre-risk/&lt;br/&gt;https://www.businesstimes.com.sg/startups-tech/technology/broadcom-amassing-us60-billion-fund-chips-anthropic-sources&lt;/p&gt;
+&lt;p&gt;https://tv.leeheggan.tech&lt;/p&gt;
+&lt;p&gt;#datacenters #AI #APAC #news&lt;/p&gt;</content:encoded>
+      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep14.mp3" length="11703212" type="audio/mpeg" />
+      <guid isPermaLink="false">dctv-ep14-Xig_F-sxx4E</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>12:11</itunes:duration>
+      <itunes:episode>14</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>The daily APAC data-centre wrap for 2026-10-04.
+
+AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
+
+Chapters:
+0:00 Open
+0:24 firmus
+2:07 microsoft
+3:10 bdx
+4:19 goodman
+5:13 aws
+6:05 Markets check
+7:44 Tencent
+7:55 Japan power + Dell
+8:24 Queensland deal
+8:48 Oracle
+9:15 Broadcom debt package
+11:15 Sign-off
+
+Sources:
+https://www.submarinenetworks.com/en/nv/insights/firmus-partners-with-meta-and-openai-on-ai-infrastructure
+https://w.media/firmus-expands-meta-ai-infrastructure-deal-into-southeast-asia/
+https://w.media/microsoft-gets-approval-for-au1-26bn-96mw-sydney-data-centre/
+https://w.media/indonesia-pauses-bdx-data-centers-construction-pending-required-permits-and-eia-report/
+https://capacityglobal.com/news/goodman-cancels-data-centre-in-sydney-suburb/
+https://www.datacenterdynamics.com/en/news/goodman-withdraws-application-for-90mw-data-center-campus-in-sydney-australia/
+https://w.media/amazon-buys-2-million-sq-ft-land-in-selangor-malaysia-to-build-data-center/
+https://w.media/tencent-leases-100000-ai-chips-from-oracle-for-us-7-billion-report/
+https://www.afr.com/companies/financial-services/macquarie-capital-takes-zerra-stake-after-30b-queensland-data-centre-deal-20261003-p6129z?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_feed
+https://baxtel.com/news/hyperdc-files-plans-for-400mw-data-center-campus-west-of-melbourne
+https://capacityglobal.com/news/165bn-project-jupiter-what-oracles-force-majeure-notice-means-for-ai-data-centre-risk/
+https://www.businesstimes.com.sg/startups-tech/technology/broadcom-amassing-us60-billion-fund-chips-anthropic-sources
+
+https://tv.leeheggan.tech
+
+#datacenters #AI #APAC #news</itunes:summary>
     </item>
     <item>
       <title>CDC's A$15B, 1.4GW Data Centre Campus at Wagga Wagga</title>
       <link>https://www.youtube.com/watch?v=FLB7u_hjJIg</link>
-      <guid isPermaLink="false">dctv-ep13-FLB7u_hjJIg</guid>
-      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
       <description>The daily APAC data-centre wrap for 2026-09-26.
 
 AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
@@ -183,15 +483,70 @@ https://www.datacenterdynamics.com/en/news/samsung-to-fuel-korean-robot-ambition
 https://tv.leeheggan.tech
 
 #datacenters #AI #APAC #news</description>
-      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep13.mp3" length="13288748" type="audio/mpeg"/>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://leeheggan-droid.github.io/dctv-podcast/cover.jpg"/>
+      <content:encoded>&lt;p&gt;The daily APAC data-centre wrap for 2026-09-26.&lt;/p&gt;
+&lt;p&gt;AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.&lt;/p&gt;
+&lt;p&gt;Chapters:&lt;br/&gt;0:00 Open&lt;br/&gt;0:23 cdc-data-centres&lt;br/&gt;2:29 Keppel&lt;br/&gt;3:29 BDx&lt;br/&gt;4:17 ctrls&lt;br/&gt;5:23 SUBCO&lt;br/&gt;5:37 Next story&lt;br/&gt;6:10 Markets check&lt;br/&gt;7:17 Credo&lt;br/&gt;7:33 MediaTek&lt;br/&gt;7:54 AirTrunk&lt;br/&gt;8:45 Melbourne&lt;br/&gt;9:00 Vocus&lt;br/&gt;9:12 CapitaLand and ST Telemedia&lt;br/&gt;9:40 Oracle&lt;br/&gt;10:42 Google&lt;br/&gt;11:09 Nscale&lt;br/&gt;13:11 Sign-off&lt;/p&gt;
+&lt;p&gt;Sources:&lt;br/&gt;https://w.media/cdc-plans-aud-15bn-1-4gw-data-centre-campus-near-wagga-wagga/&lt;br/&gt;https://w.media/australian-data-centre-operators-raise-au35bn-in-2026-as-debt-funding-surges/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/keppel-starhub-confirm-talks-over-m1-deal-in-singapore/&lt;br/&gt;https://w.media/bdx-breaks-ground-on-ai-data-center-in-west-java-first-120mw-building-to-be-ready-by-early-2027/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/bdx-breaks-ground-on-ai-campus-2-in-jatiluhur-indonesia/&lt;br/&gt;https://datacentremagazine.com/interviews/ctrls-what-does-it-take-to-build-a-data-centre-in-india&lt;br/&gt;https://capacityglobal.com/news/subco-plans-three-new-subsea-cables/&lt;br/&gt;https://finance.yahoo.com/technology/ai/articles/accelerating-ai-data-center-infrastructure-160007318.html&lt;br/&gt;https://finance.yahoo.com/m/e8d77e14-816c-34fc-b096-d352c43da62e/chip-stocks-rise-after.html&lt;br/&gt;https://www.nst.com.my/amp/business/corporate/2026/07/1489956/blackstone-backed-airtrunk-eyes-sept-oct-launch-us15bil&lt;br/&gt;https://www.datacenterdynamics.com/en/news/victoria-australia-proposes-rules-requiring-data-centers-to-secure-own-renewable-energy-supply/&lt;br/&gt;https://w.media/tera-data-centers-buys-221-7-acres-negeri-sembilan-land-in-us-250-million-deal/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/vocus-to-build-4000km-fiber-link-between-brisbane-and-darwin/&lt;br/&gt;https://w.media/thai-bill-proposes-data-center-licensing-environmental-health-impact-assessments/&lt;br/&gt;https://www.ft.com/content/a96bf05a-a299-4d6a-a753-b298dd0f4016?syn-25a6b1a6=1&lt;br/&gt;https://www.datacenterdynamics.com/en/news/project-suncatcher-google-to-launch-first-space-data-center-test-in-orbit-next-week/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/ai-cloud-and-data-center-firm-nscale-raises-336bn-ahead-of-its-ipo/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/samsung-to-fuel-korean-robot-ambitions-as-exclusive-ai-network-provider/&lt;/p&gt;
+&lt;p&gt;https://tv.leeheggan.tech&lt;/p&gt;
+&lt;p&gt;#datacenters #AI #APAC #news&lt;/p&gt;</content:encoded>
+      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep13.mp3" length="13288748" type="audio/mpeg" />
+      <guid isPermaLink="false">dctv-ep13-FLB7u_hjJIg</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>13:51</itunes:duration>
+      <itunes:episode>13</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>The daily APAC data-centre wrap for 2026-09-26.
+
+AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
+
+Chapters:
+0:00 Open
+0:23 cdc-data-centres
+2:29 Keppel
+3:29 BDx
+4:17 ctrls
+5:23 SUBCO
+5:37 Next story
+6:10 Markets check
+7:17 Credo
+7:33 MediaTek
+7:54 AirTrunk
+8:45 Melbourne
+9:00 Vocus
+9:12 CapitaLand and ST Telemedia
+9:40 Oracle
+10:42 Google
+11:09 Nscale
+13:11 Sign-off
+
+Sources:
+https://w.media/cdc-plans-aud-15bn-1-4gw-data-centre-campus-near-wagga-wagga/
+https://w.media/australian-data-centre-operators-raise-au35bn-in-2026-as-debt-funding-surges/
+https://www.datacenterdynamics.com/en/news/keppel-starhub-confirm-talks-over-m1-deal-in-singapore/
+https://w.media/bdx-breaks-ground-on-ai-data-center-in-west-java-first-120mw-building-to-be-ready-by-early-2027/
+https://www.datacenterdynamics.com/en/news/bdx-breaks-ground-on-ai-campus-2-in-jatiluhur-indonesia/
+https://datacentremagazine.com/interviews/ctrls-what-does-it-take-to-build-a-data-centre-in-india
+https://capacityglobal.com/news/subco-plans-three-new-subsea-cables/
+https://finance.yahoo.com/technology/ai/articles/accelerating-ai-data-center-infrastructure-160007318.html
+https://finance.yahoo.com/m/e8d77e14-816c-34fc-b096-d352c43da62e/chip-stocks-rise-after.html
+https://www.nst.com.my/amp/business/corporate/2026/07/1489956/blackstone-backed-airtrunk-eyes-sept-oct-launch-us15bil
+https://www.datacenterdynamics.com/en/news/victoria-australia-proposes-rules-requiring-data-centers-to-secure-own-renewable-energy-supply/
+https://w.media/tera-data-centers-buys-221-7-acres-negeri-sembilan-land-in-us-250-million-deal/
+https://www.datacenterdynamics.com/en/news/vocus-to-build-4000km-fiber-link-between-brisbane-and-darwin/
+https://w.media/thai-bill-proposes-data-center-licensing-environmental-health-impact-assessments/
+https://www.ft.com/content/a96bf05a-a299-4d6a-a753-b298dd0f4016?syn-25a6b1a6=1
+https://www.datacenterdynamics.com/en/news/project-suncatcher-google-to-launch-first-space-data-center-test-in-orbit-next-week/
+https://www.datacenterdynamics.com/en/news/ai-cloud-and-data-center-firm-nscale-raises-336bn-ahead-of-its-ipo/
+https://www.datacenterdynamics.com/en/news/samsung-to-fuel-korean-robot-ambitions-as-exclusive-ai-network-provider/
+
+https://tv.leeheggan.tech
+
+#datacenters #AI #APAC #news</itunes:summary>
     </item>
     <item>
       <title>GS Bets 15 Trillion Won on an AI Data Centre Outside Seoul</title>
       <link>https://www.youtube.com/watch?v=Rq11yYGmSGU</link>
-      <guid isPermaLink="false">dctv-ep12-Rq11yYGmSGU</guid>
-      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
       <description>The daily APAC data-centre wrap for 2026-09-19.
 
 AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
@@ -239,15 +594,70 @@ https://embodiedglobal.com
 https://tv.leeheggan.tech
 
 #datacenters #AI #APAC #news</description>
-      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep12.mp3" length="12070700" type="audio/mpeg"/>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://leeheggan-droid.github.io/dctv-podcast/cover.jpg"/>
+      <content:encoded>&lt;p&gt;The daily APAC data-centre wrap for 2026-09-19.&lt;/p&gt;
+&lt;p&gt;AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.&lt;/p&gt;
+&lt;p&gt;Chapters:&lt;br/&gt;0:00 Open&lt;br/&gt;0:27 GS&lt;br/&gt;1:30 firmus&lt;br/&gt;2:45 aws&lt;br/&gt;3:35 goodman&lt;br/&gt;4:27 Philippines AI plan&lt;br/&gt;5:26 Markets check&lt;br/&gt;6:33 Munters&lt;br/&gt;6:53 Constellation&lt;br/&gt;7:11 Next story&lt;br/&gt;8:05 Johor&lt;br/&gt;8:20 Next story&lt;br/&gt;8:35 Next story&lt;br/&gt;8:55 OpenAI&lt;br/&gt;9:17 Nscale&lt;br/&gt;9:56 Crusoe&lt;br/&gt;12:01 Sign-off&lt;/p&gt;
+&lt;p&gt;Sources:&lt;br/&gt;https://www.afr.com/technology/firmus-needs-hundreds-of-billions-of-dollars-for-ambitious-expansion-20260918-p60yip?ref=rss&amp;amp;utm_medium=rss&amp;amp;utm_source=rss_technology&lt;br/&gt;https://www.afr.com/chanticleer/bigger-than-bhp-firmus-will-be-australia-s-most-capital-hungry-beast-20260917-p60xxo?ref=rss&amp;amp;utm_medium=rss&amp;amp;utm_source=rss_feed&lt;br/&gt;https://w.media/amazon-receives-approval-for-aud-2-17bn-sydney-data-centre/&lt;br/&gt;https://w.media/goodman-group-raises-us-455-million-for-hong-kong-data-center-development/&lt;br/&gt;https://w.media/philippines-unveils-us-34-4-billion-ai-infrastructure-masterplan/&lt;br/&gt;https://finance.yahoo.com/technology/articles/munters-completes-expansion-data-center-082300105.html&lt;br/&gt;https://finance.yahoo.com/markets/stocks/articles/equity-overhang-weighs-constellation-energy-125043483.html&lt;br/&gt;https://www.nst.com.my/amp/business/corporate/2026/07/1489956/blackstone-backed-airtrunk-eyes-sept-oct-launch-us15bil&lt;br/&gt;https://www.datacenterdynamics.com/en/news/bitdeer-ai-to-lease-65mw-data-center-in-johor-malaysia/&lt;br/&gt;https://w.media/data-centers-make-up-44pc-of-total-investment-into-malaysia-in-1h2026/&lt;br/&gt;https://w.media/anthropic-signs-first-australian-data-center-lease/&lt;br/&gt;https://w.media/gurin-energy-and-naver-sign-mou-and-ppa-for-jindo-green-solar-project/&lt;br/&gt;https://www.telecomreviewasia.com/news/network-news/30294-xlsmart-begins-construction-of-8000-kilometer-subsea-cable-linking-southeast-asia-and-japan/&lt;br/&gt;https://w.media/data-center-growth-lifts-infratil-earnings-guidance-for-fy-2027/&lt;br/&gt;https://www.ft.com/content/6011d061-eee3-4193-b3b7-8ee4155f538c?syn-25a6b1a6=1&lt;br/&gt;https://www.ft.com/content/93ba41c5-d777-4733-8738-93a06e8fead1?syn-25a6b1a6=1&lt;br/&gt;https://w.media/crusoe-raises-us-3-9-billion-in-latest-oversubscribed-funding-round/&lt;br/&gt;https://www.marktechpost.com&lt;br/&gt;https://embodiedglobal.com&lt;/p&gt;
+&lt;p&gt;https://tv.leeheggan.tech&lt;/p&gt;
+&lt;p&gt;#datacenters #AI #APAC #news&lt;/p&gt;</content:encoded>
+      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep12.mp3" length="12070700" type="audio/mpeg" />
+      <guid isPermaLink="false">dctv-ep12-Rq11yYGmSGU</guid>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>12:34</itunes:duration>
+      <itunes:episode>12</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>The daily APAC data-centre wrap for 2026-09-19.
+
+AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
+
+Chapters:
+0:00 Open
+0:27 GS
+1:30 firmus
+2:45 aws
+3:35 goodman
+4:27 Philippines AI plan
+5:26 Markets check
+6:33 Munters
+6:53 Constellation
+7:11 Next story
+8:05 Johor
+8:20 Next story
+8:35 Next story
+8:55 OpenAI
+9:17 Nscale
+9:56 Crusoe
+12:01 Sign-off
+
+Sources:
+https://www.afr.com/technology/firmus-needs-hundreds-of-billions-of-dollars-for-ambitious-expansion-20260918-p60yip?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_technology
+https://www.afr.com/chanticleer/bigger-than-bhp-firmus-will-be-australia-s-most-capital-hungry-beast-20260917-p60xxo?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_feed
+https://w.media/amazon-receives-approval-for-aud-2-17bn-sydney-data-centre/
+https://w.media/goodman-group-raises-us-455-million-for-hong-kong-data-center-development/
+https://w.media/philippines-unveils-us-34-4-billion-ai-infrastructure-masterplan/
+https://finance.yahoo.com/technology/articles/munters-completes-expansion-data-center-082300105.html
+https://finance.yahoo.com/markets/stocks/articles/equity-overhang-weighs-constellation-energy-125043483.html
+https://www.nst.com.my/amp/business/corporate/2026/07/1489956/blackstone-backed-airtrunk-eyes-sept-oct-launch-us15bil
+https://www.datacenterdynamics.com/en/news/bitdeer-ai-to-lease-65mw-data-center-in-johor-malaysia/
+https://w.media/data-centers-make-up-44pc-of-total-investment-into-malaysia-in-1h2026/
+https://w.media/anthropic-signs-first-australian-data-center-lease/
+https://w.media/gurin-energy-and-naver-sign-mou-and-ppa-for-jindo-green-solar-project/
+https://www.telecomreviewasia.com/news/network-news/30294-xlsmart-begins-construction-of-8000-kilometer-subsea-cable-linking-southeast-asia-and-japan/
+https://w.media/data-center-growth-lifts-infratil-earnings-guidance-for-fy-2027/
+https://www.ft.com/content/6011d061-eee3-4193-b3b7-8ee4155f538c?syn-25a6b1a6=1
+https://www.ft.com/content/93ba41c5-d777-4733-8738-93a06e8fead1?syn-25a6b1a6=1
+https://w.media/crusoe-raises-us-3-9-billion-in-latest-oversubscribed-funding-round/
+https://www.marktechpost.com
+https://embodiedglobal.com
+
+https://tv.leeheggan.tech
+
+#datacenters #AI #APAC #news</itunes:summary>
     </item>
     <item>
       <title>$3.1B Loan, 1GW AI Factory: Inside Zankore's Nvidia Build in Indonesia</title>
       <link>https://www.youtube.com/watch?v=5k9wb2QdcS8</link>
-      <guid isPermaLink="false">dctv-ep11-5k9wb2QdcS8</guid>
-      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
       <description>The daily APAC data-centre wrap for 2026-09-12.
 
 AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
@@ -298,15 +708,73 @@ https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/oracle-spen
 https://tv.leeheggan.tech
 
 #datacenters #AI #APAC #news</description>
-      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep11.mp3" length="12235820" type="audio/mpeg"/>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://leeheggan-droid.github.io/dctv-podcast/cover.jpg"/>
+      <content:encoded>&lt;p&gt;The daily APAC data-centre wrap for 2026-09-12.&lt;/p&gt;
+&lt;p&gt;AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.&lt;/p&gt;
+&lt;p&gt;Chapters:&lt;br/&gt;0:00 Open&lt;br/&gt;0:28 Thailand construction pause&lt;br/&gt;0:54 Bangkok&lt;br/&gt;1:50 Zankore loan&lt;br/&gt;2:16 Next story&lt;br/&gt;2:58 nextdc&lt;br/&gt;3:24 NEXTDC&lt;br/&gt;4:00 firmus&lt;br/&gt;4:48 neutradc&lt;br/&gt;5:30 Markets check&lt;br/&gt;6:31 DL E&amp;amp;C · 1 week&lt;br/&gt;7:05 Next story&lt;br/&gt;8:17 Sydney&lt;br/&gt;8:27 Singapore&lt;br/&gt;8:42 Foshan&lt;br/&gt;9:08 Microsoft&lt;br/&gt;9:46 Oracle&lt;br/&gt;12:08 Sign-off&lt;/p&gt;
+&lt;p&gt;Sources:&lt;br/&gt;https://www.datacenterdynamics.com/en/news/thailand-pauses-construction-on-49-data-centers-as-it-plans-new-regulations/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/oil-leak-from-data-center-contaminates-water-in-bangkok-thailand/&lt;br/&gt;https://w.media/zankore-secures-us-3-1-billion-loan-to-develop-ai-infrastructure-in-indonesia/&lt;br/&gt;https://www.telecomreviewasia.com/news/industry-news/30226-zankore-by-indosat-expands-southeast-asias-ai-compute-infrastructure-with-nvidia/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/australias-nextdc-raises-au11bn-in-convertible-notes/&lt;br/&gt;https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s7-data-centre-eastern-creek&lt;br/&gt;https://www.afr.com/technology/firmus-focuses-on-asia-as-australian-approvals-stumble-ahead-of-ipo-20260909-p60vrp&lt;br/&gt;https://datacentremagazine.com/news/how-firmus-and-openai-plan-to-power-ai-factories-in-malaysia&lt;br/&gt;https://w.media/telkomsel-mulls-stake-sale-of-neutradc/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/sgc-energy-partners-with-vertiv-to-deploy-powernexus-at-planned-ai-data-center-in-gunsan-south-korea/&lt;br/&gt;https://www.nst.com.my/amp/business/corporate/2026/07/1489956/blackstone-backed-airtrunk-eyes-sept-oct-launch-us15bil&lt;br/&gt;https://w.media/transgrid-warns-sydney-data-centre-demand-is-stretching-grid-capacity/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/nvidia-partners-with-aussie-companies-to-bring-2gw-online-by-2027/&lt;br/&gt;https://w.media/singapores-digital-infrastructure-bill-introduces-licensing-requirements/&lt;br/&gt;https://w.media/hypervault-secures-264-acres-for-1gw-ai-data-center-campus-in-hyderabad/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/glp-begins-development-of-200mw-data-center-in-foshan-china/&lt;br/&gt;https://www.bangkokpost.com/business/general/3318259/small-nuclear-reactor-plans-begin&lt;br/&gt;https://www.bloomberg.com/news/videos/2026-09-11/microsoft-s-data-center-plans-face-big-costs-video&lt;br/&gt;https://www.datacenterdynamics.com/en/news/microsoft-targets-38gw-of-data-center-capacity-in-2032-report/&lt;br/&gt;https://www.ft.com/content/25b1abb0-790f-4315-9b0c-530d959a086f&lt;br/&gt;https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/oracle-spend-additional-us700-million-more-job-cuts&lt;/p&gt;
+&lt;p&gt;https://tv.leeheggan.tech&lt;/p&gt;
+&lt;p&gt;#datacenters #AI #APAC #news&lt;/p&gt;</content:encoded>
+      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep11.mp3" length="12235820" type="audio/mpeg" />
+      <guid isPermaLink="false">dctv-ep11-5k9wb2QdcS8</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>12:45</itunes:duration>
+      <itunes:episode>11</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>The daily APAC data-centre wrap for 2026-09-12.
+
+AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
+
+Chapters:
+0:00 Open
+0:28 Thailand construction pause
+0:54 Bangkok
+1:50 Zankore loan
+2:16 Next story
+2:58 nextdc
+3:24 NEXTDC
+4:00 firmus
+4:48 neutradc
+5:30 Markets check
+6:31 DL E&amp;C · 1 week
+7:05 Next story
+8:17 Sydney
+8:27 Singapore
+8:42 Foshan
+9:08 Microsoft
+9:46 Oracle
+12:08 Sign-off
+
+Sources:
+https://www.datacenterdynamics.com/en/news/thailand-pauses-construction-on-49-data-centers-as-it-plans-new-regulations/
+https://www.datacenterdynamics.com/en/news/oil-leak-from-data-center-contaminates-water-in-bangkok-thailand/
+https://w.media/zankore-secures-us-3-1-billion-loan-to-develop-ai-infrastructure-in-indonesia/
+https://www.telecomreviewasia.com/news/industry-news/30226-zankore-by-indosat-expands-southeast-asias-ai-compute-infrastructure-with-nvidia/
+https://www.datacenterdynamics.com/en/news/australias-nextdc-raises-au11bn-in-convertible-notes/
+https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s7-data-centre-eastern-creek
+https://www.afr.com/technology/firmus-focuses-on-asia-as-australian-approvals-stumble-ahead-of-ipo-20260909-p60vrp
+https://datacentremagazine.com/news/how-firmus-and-openai-plan-to-power-ai-factories-in-malaysia
+https://w.media/telkomsel-mulls-stake-sale-of-neutradc/
+https://www.datacenterdynamics.com/en/news/sgc-energy-partners-with-vertiv-to-deploy-powernexus-at-planned-ai-data-center-in-gunsan-south-korea/
+https://www.nst.com.my/amp/business/corporate/2026/07/1489956/blackstone-backed-airtrunk-eyes-sept-oct-launch-us15bil
+https://w.media/transgrid-warns-sydney-data-centre-demand-is-stretching-grid-capacity/
+https://www.datacenterdynamics.com/en/news/nvidia-partners-with-aussie-companies-to-bring-2gw-online-by-2027/
+https://w.media/singapores-digital-infrastructure-bill-introduces-licensing-requirements/
+https://w.media/hypervault-secures-264-acres-for-1gw-ai-data-center-campus-in-hyderabad/
+https://www.datacenterdynamics.com/en/news/glp-begins-development-of-200mw-data-center-in-foshan-china/
+https://www.bangkokpost.com/business/general/3318259/small-nuclear-reactor-plans-begin
+https://www.bloomberg.com/news/videos/2026-09-11/microsoft-s-data-center-plans-face-big-costs-video
+https://www.datacenterdynamics.com/en/news/microsoft-targets-38gw-of-data-center-capacity-in-2032-report/
+https://www.ft.com/content/25b1abb0-790f-4315-9b0c-530d959a086f
+https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/oracle-spend-additional-us700-million-more-job-cuts
+
+https://tv.leeheggan.tech
+
+#datacenters #AI #APAC #news</itunes:summary>
     </item>
     <item>
       <title>Amazon's First Private Transpacific Cable, and Thailand Freezes 49 Projects</title>
       <link>https://www.youtube.com/watch?v=CZCu1oxYpI4</link>
-      <guid isPermaLink="false">dctv-ep10-CZCu1oxYpI4</guid>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
       <description>The daily APAC data-centre wrap for 2026-09-06.
 
 AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
@@ -355,15 +823,71 @@ https://www.datacenterdynamics.com/en/news/electricity-free-cooling-system-for-d
 https://tv.leeheggan.tech
 
 #datacenters #AI #APAC #news</description>
-      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep10.mp3" length="10831916" type="audio/mpeg"/>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://leeheggan-droid.github.io/dctv-podcast/cover.jpg"/>
+      <content:encoded>&lt;p&gt;The daily APAC data-centre wrap for 2026-09-06.&lt;/p&gt;
+&lt;p&gt;AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.&lt;/p&gt;
+&lt;p&gt;Chapters:&lt;br/&gt;0:00 Open&lt;br/&gt;0:39 TCS HyperVault&lt;br/&gt;1:32 STT GDC&lt;br/&gt;1:43 singtel-nxera&lt;br/&gt;2:20 dayone&lt;br/&gt;3:14 Thailand build freeze&lt;br/&gt;3:47 aws&lt;br/&gt;4:43 Markets check&lt;br/&gt;5:47 IREN · 1 week&lt;br/&gt;6:03 Ciena · 1 week&lt;br/&gt;6:19 Next story&lt;br/&gt;7:25 keppel-dc&lt;br/&gt;7:37 firmus&lt;br/&gt;7:48 Parratech&lt;br/&gt;7:59 Tokyo&lt;br/&gt;8:28 Next story&lt;br/&gt;8:43 Next story&lt;br/&gt;10:45 Sign-off&lt;/p&gt;
+&lt;p&gt;Sources:&lt;br/&gt;https://www.bloomberg.com/news/articles/2026-09-05/tcs-plans-one-gigawatt-capacity-data-center-in-southern-india&lt;br/&gt;https://w.media/kkr-singtel-consortium-completes-purchase-of-sttgdc/&lt;br/&gt;https://w.media/dayone-tnb-to-explore-onsite-power-up-to-1-5gw-for-greater-kuala-lumpur-data-center/&lt;br/&gt;https://w.media/thailand-freezes-construction-of-49-data-centers-new-rules-to-be-unveiled-in-a-month/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/evolution-dc-signs-pre-lease-for-first-phase-of-bangkok-data-center-to-unnamed-hyperscaler/&lt;br/&gt;https://www.submarinenetworks.com/en/systems/trans-pacific/staonuk/aws-announces-staonuk&lt;br/&gt;https://www.submarinenetworks.com/en/systems/trans-pacific/staonuk/toptana-builds-washington-cls-to-house-aws-sta-o-nuk-transpacific-cable&lt;br/&gt;https://www.telecomreviewasia.com/news/industry-news/30198-aws-to-launch-staonuk-cable-linking-u-s-and-japan/&lt;br/&gt;https://finance.yahoo.com/m/5cc3f675-9daa-3ed5-a667-7e33953236e9/iren-climbs-4%25-on-%242.4b-blue.html&lt;br/&gt;https://finance.yahoo.com/markets/stocks/articles/ciena-q3-earnings-call-flags-140000577.html&lt;br/&gt;https://www.nst.com.my/amp/business/corporate/2026/07/1489956/blackstone-backed-airtrunk-eyes-sept-oct-launch-us15bil&lt;br/&gt;https://w.media/keppel-dc-reit-to-acquire-stakes-in-two-tokyo-data-centers-for-us-1-05-billion/&lt;br/&gt;https://w.media/goodman-wins-approval-for-135mw-macquarie-park-data-centre/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/firmus-to-invest-300m-in-subcos-upcoming-australia-us-subsea-cable/&lt;br/&gt;https://www.afr.com/street-talk/sydney-brothers-data-centre-supplier-eyes-1b-plus-val-as-pe-dials-in-20260906-p60uv9?ref=rss&amp;amp;utm_medium=rss&amp;amp;utm_source=rss_feed&lt;br/&gt;https://asia.nikkei.com/business/technology/artificial-intelligence/japan-ai-data-centers-set-to-quadruple-by-2033-with-60bn-investment&lt;br/&gt;https://www.telecomreviewasia.com/news/industry-news/30159-vietnams-four-subsea-cable-faults-disrupt-30-of-international-capacity/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/taiwan-based-liteon-purchases-25-percent-stake-in-polish-liquid-cooling-firm-dcx/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/electricity-free-cooling-system-for-data-centers-prototyped-by-researchers-in-germany-and-japan/&lt;/p&gt;
+&lt;p&gt;https://tv.leeheggan.tech&lt;/p&gt;
+&lt;p&gt;#datacenters #AI #APAC #news&lt;/p&gt;</content:encoded>
+      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep10.mp3" length="10831916" type="audio/mpeg" />
+      <guid isPermaLink="false">dctv-ep10-CZCu1oxYpI4</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>11:17</itunes:duration>
+      <itunes:episode>10</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>The daily APAC data-centre wrap for 2026-09-06.
+
+AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
+
+Chapters:
+0:00 Open
+0:39 TCS HyperVault
+1:32 STT GDC
+1:43 singtel-nxera
+2:20 dayone
+3:14 Thailand build freeze
+3:47 aws
+4:43 Markets check
+5:47 IREN · 1 week
+6:03 Ciena · 1 week
+6:19 Next story
+7:25 keppel-dc
+7:37 firmus
+7:48 Parratech
+7:59 Tokyo
+8:28 Next story
+8:43 Next story
+10:45 Sign-off
+
+Sources:
+https://www.bloomberg.com/news/articles/2026-09-05/tcs-plans-one-gigawatt-capacity-data-center-in-southern-india
+https://w.media/kkr-singtel-consortium-completes-purchase-of-sttgdc/
+https://w.media/dayone-tnb-to-explore-onsite-power-up-to-1-5gw-for-greater-kuala-lumpur-data-center/
+https://w.media/thailand-freezes-construction-of-49-data-centers-new-rules-to-be-unveiled-in-a-month/
+https://www.datacenterdynamics.com/en/news/evolution-dc-signs-pre-lease-for-first-phase-of-bangkok-data-center-to-unnamed-hyperscaler/
+https://www.submarinenetworks.com/en/systems/trans-pacific/staonuk/aws-announces-staonuk
+https://www.submarinenetworks.com/en/systems/trans-pacific/staonuk/toptana-builds-washington-cls-to-house-aws-sta-o-nuk-transpacific-cable
+https://www.telecomreviewasia.com/news/industry-news/30198-aws-to-launch-staonuk-cable-linking-u-s-and-japan/
+https://finance.yahoo.com/m/5cc3f675-9daa-3ed5-a667-7e33953236e9/iren-climbs-4%25-on-%242.4b-blue.html
+https://finance.yahoo.com/markets/stocks/articles/ciena-q3-earnings-call-flags-140000577.html
+https://www.nst.com.my/amp/business/corporate/2026/07/1489956/blackstone-backed-airtrunk-eyes-sept-oct-launch-us15bil
+https://w.media/keppel-dc-reit-to-acquire-stakes-in-two-tokyo-data-centers-for-us-1-05-billion/
+https://w.media/goodman-wins-approval-for-135mw-macquarie-park-data-centre/
+https://www.datacenterdynamics.com/en/news/firmus-to-invest-300m-in-subcos-upcoming-australia-us-subsea-cable/
+https://www.afr.com/street-talk/sydney-brothers-data-centre-supplier-eyes-1b-plus-val-as-pe-dials-in-20260906-p60uv9?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_feed
+https://asia.nikkei.com/business/technology/artificial-intelligence/japan-ai-data-centers-set-to-quadruple-by-2033-with-60bn-investment
+https://www.telecomreviewasia.com/news/industry-news/30159-vietnams-four-subsea-cable-faults-disrupt-30-of-international-capacity/
+https://www.datacenterdynamics.com/en/news/taiwan-based-liteon-purchases-25-percent-stake-in-polish-liquid-cooling-firm-dcx/
+https://www.datacenterdynamics.com/en/news/electricity-free-cooling-system-for-data-centers-prototyped-by-researchers-in-germany-and-japan/
+
+https://tv.leeheggan.tech
+
+#datacenters #AI #APAC #news</itunes:summary>
     </item>
     <item>
       <title>Blue Owl Lends IREN $3.4B Against Nvidia Chips, Not Concrete</title>
       <link>https://www.youtube.com/watch?v=U7VYFyQ782k</link>
-      <guid isPermaLink="false">dctv-ep09-U7VYFyQ782k</guid>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
       <description>The daily APAC data-centre wrap for 2026-08-29.
 
 AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
@@ -387,15 +911,44 @@ https://www.datacenterdynamics.com/en/news/nvidia-pauses-some-cloud-revenue-shar
 https://www.scmp.com/tech/big-tech/article/3365491/alibaba-pushes-south-americas-ai-market-launch-brazil-data-centres?utm_source=rss_feed
 
 https://tv.leeheggan.tech</description>
-      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep09.mp3" length="10824236" type="audio/mpeg"/>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://leeheggan-droid.github.io/dctv-podcast/cover.jpg"/>
+      <content:encoded>&lt;p&gt;The daily APAC data-centre wrap for 2026-08-29.&lt;/p&gt;
+&lt;p&gt;AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.&lt;/p&gt;
+&lt;p&gt;Sources:&lt;br/&gt;https://www.submarinenetworks.com/en/nv/insights/sk-telecom-unveils-sk-horizon&lt;br/&gt;https://w.media/salim-group-buys-out-indokeppel-data-centres-rebrands-500mw-dc-as-indodata-center/&lt;br/&gt;https://w.media/zerra-plans-1-44gw-aud-14-5bn-data-centre-campus-in-queensland/&lt;br/&gt;https://w.media/australia-agrees-national-data-centre-framework-but-energy-rules-remain-open/&lt;br/&gt;https://w.media/aemo-australias-data-centres-to-use-34twh-by-2035-36/&lt;br/&gt;https://www.afr.com/technology/blue-owl-leads-3-4b-iren-debt-deal-to-buy-nvidia-s-chips-20260829-p60sl5?ref=rss&amp;amp;utm_medium=rss&amp;amp;utm_source=rss_feed&lt;br/&gt;https://www.bloomberg.com/news/articles/2026-08-28/yotta-plans-ipo-very-soon-to-keep-up-with-ai-demand-ceo-says&lt;br/&gt;https://www.datacenterdynamics.com/en/news/yotta-data-services-nears-ipo-says-chairman-hiranandani/&lt;br/&gt;https://w.media/singapore-launches-liquid-cooling-standards-for-tropical-data-centers/&lt;br/&gt;https://subtelforum.com/four-cable-faults-disrupt-vietnam-international-traffic/&lt;br/&gt;https://www.submarinenetworks.com/en/nv/insights/japan-allocates-$630m-subsidy-to-secure-subsea-cable-vessels&lt;br/&gt;https://www.datacenterdynamics.com/en/news/empyrion-closes-financing-for-taipei-taiwan-data-center-with-esun-bank/&lt;br/&gt;https://w.media/de-cix-india-launches-pop-at-adaniconnexs-chennai-1-data-center/&lt;br/&gt;https://www.scmp.com/tech/article/3365558/minimax-expands-alibaba-cloud-pact-compute-needs-surge-training-and-inference?utm_source=rss_feed&lt;br/&gt;https://www.datacenterdynamics.com/en/news/nvidia-pauses-some-cloud-revenue-sharing-deals-report/&lt;br/&gt;https://www.scmp.com/tech/big-tech/article/3365491/alibaba-pushes-south-americas-ai-market-launch-brazil-data-centres?utm_source=rss_feed&lt;/p&gt;
+&lt;p&gt;https://tv.leeheggan.tech&lt;/p&gt;</content:encoded>
+      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep09.mp3" length="10824236" type="audio/mpeg" />
+      <guid isPermaLink="false">dctv-ep09-U7VYFyQ782k</guid>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>11:17</itunes:duration>
+      <itunes:episode>9</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>The daily APAC data-centre wrap for 2026-08-29.
+
+AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
+
+Sources:
+https://www.submarinenetworks.com/en/nv/insights/sk-telecom-unveils-sk-horizon
+https://w.media/salim-group-buys-out-indokeppel-data-centres-rebrands-500mw-dc-as-indodata-center/
+https://w.media/zerra-plans-1-44gw-aud-14-5bn-data-centre-campus-in-queensland/
+https://w.media/australia-agrees-national-data-centre-framework-but-energy-rules-remain-open/
+https://w.media/aemo-australias-data-centres-to-use-34twh-by-2035-36/
+https://www.afr.com/technology/blue-owl-leads-3-4b-iren-debt-deal-to-buy-nvidia-s-chips-20260829-p60sl5?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_feed
+https://www.bloomberg.com/news/articles/2026-08-28/yotta-plans-ipo-very-soon-to-keep-up-with-ai-demand-ceo-says
+https://www.datacenterdynamics.com/en/news/yotta-data-services-nears-ipo-says-chairman-hiranandani/
+https://w.media/singapore-launches-liquid-cooling-standards-for-tropical-data-centers/
+https://subtelforum.com/four-cable-faults-disrupt-vietnam-international-traffic/
+https://www.submarinenetworks.com/en/nv/insights/japan-allocates-$630m-subsidy-to-secure-subsea-cable-vessels
+https://www.datacenterdynamics.com/en/news/empyrion-closes-financing-for-taipei-taiwan-data-center-with-esun-bank/
+https://w.media/de-cix-india-launches-pop-at-adaniconnexs-chennai-1-data-center/
+https://www.scmp.com/tech/article/3365558/minimax-expands-alibaba-cloud-pact-compute-needs-surge-training-and-inference?utm_source=rss_feed
+https://www.datacenterdynamics.com/en/news/nvidia-pauses-some-cloud-revenue-sharing-deals-report/
+https://www.scmp.com/tech/big-tech/article/3365491/alibaba-pushes-south-americas-ai-market-launch-brazil-data-centres?utm_source=rss_feed
+
+https://tv.leeheggan.tech</itunes:summary>
     </item>
     <item>
       <title>Singapore Rations 200MW While Johor Plans 1.5GW Next Door</title>
       <link>https://www.youtube.com/watch?v=CMaDyAquzD0</link>
-      <guid isPermaLink="false">dctv-ep08-CMaDyAquzD0</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <description>The daily APAC data-centre wrap for 2026-08-22.
 
 AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
@@ -420,15 +973,45 @@ https://www.datacenterdynamics.com/en/news/meta-files-for-subsea-cable-connectin
 https://www.bloomberg.com/news/articles/2026-08-21/anthropic-taps-google-chip-veteran-as-part-of-push-into-hardware
 
 https://tv.leeheggan.tech</description>
-      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep08.mp3" length="10634540" type="audio/mpeg"/>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://leeheggan-droid.github.io/dctv-podcast/cover.jpg"/>
+      <content:encoded>&lt;p&gt;The daily APAC data-centre wrap for 2026-08-22.&lt;/p&gt;
+&lt;p&gt;AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.&lt;/p&gt;
+&lt;p&gt;Sources:&lt;br/&gt;https://w.media/singapores-dc-cfa2-winners-announced-third-cfa-possible/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/equinix-signs-115mw-vppa-with-flo-energy-in-singapore/&lt;br/&gt;https://w.media/ytl-power-and-jland-to-partner-to-build-up-to-1-5gw-data-center-in-johor/&lt;br/&gt;https://w.media/goodman-signs-20-year-lease-with-global-hyperscaler-in-greater-tokyo/&lt;br/&gt;https://w.media/dayone-secures-us-415-million-green-loan-from-dbs-ocbc-uob/&lt;br/&gt;https://w.media/dayone-buys-us-152-8-million-sepang-land-in-malaysia-to-build-data-center/&lt;br/&gt;https://w.media/dayone-cortical-labs-nus-medicine-launch-singapores-first-biological-data-center-prototype/&lt;br/&gt;https://www.scmp.com/tech/article/3364825/alibaba-signals-faster-ai-payoff-margin-gains-halfway-through-us56-billion-capex-plan&lt;br/&gt;https://finance.yahoo.com/m/382fe668-90b9-38a7-b491-ad0bfcb0aeb4/coreweave-ceo-michael.html&lt;br/&gt;https://finance.yahoo.com/m/af1dde8e-0256-302f-b012-e2caad00110b/why-did-nebius-stock-plunge.html&lt;br/&gt;https://www.nst.com.my/amp/business/corporate/2026/07/1489956/blackstone-backed-airtrunk-eyes-sept-oct-launch-us15bil&lt;br/&gt;https://w.media/ctrls-datacenters-lands-us-26-million-investment-from-two-indian-tech-founders/&lt;br/&gt;https://w.media/tencent-cloud-launches-cloud-region-in-johor-its-first-in-malaysia/&lt;br/&gt;https://w.media/global-switch-debuts-in-bangkok-to-enter-johor-soon-in-southeast-asia-expansion/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/evolution-dc-secures-long-term-lease-for-land-in-ho-chi-minh-city-vietnam/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/meta-files-for-subsea-cable-connecting-the-us-and-denmark/&lt;br/&gt;https://www.bloomberg.com/news/articles/2026-08-21/anthropic-taps-google-chip-veteran-as-part-of-push-into-hardware&lt;/p&gt;
+&lt;p&gt;https://tv.leeheggan.tech&lt;/p&gt;</content:encoded>
+      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep08.mp3" length="10634540" type="audio/mpeg" />
+      <guid isPermaLink="false">dctv-ep08-CMaDyAquzD0</guid>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>11:05</itunes:duration>
+      <itunes:episode>8</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>The daily APAC data-centre wrap for 2026-08-22.
+
+AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
+
+Sources:
+https://w.media/singapores-dc-cfa2-winners-announced-third-cfa-possible/
+https://www.datacenterdynamics.com/en/news/equinix-signs-115mw-vppa-with-flo-energy-in-singapore/
+https://w.media/ytl-power-and-jland-to-partner-to-build-up-to-1-5gw-data-center-in-johor/
+https://w.media/goodman-signs-20-year-lease-with-global-hyperscaler-in-greater-tokyo/
+https://w.media/dayone-secures-us-415-million-green-loan-from-dbs-ocbc-uob/
+https://w.media/dayone-buys-us-152-8-million-sepang-land-in-malaysia-to-build-data-center/
+https://w.media/dayone-cortical-labs-nus-medicine-launch-singapores-first-biological-data-center-prototype/
+https://www.scmp.com/tech/article/3364825/alibaba-signals-faster-ai-payoff-margin-gains-halfway-through-us56-billion-capex-plan
+https://finance.yahoo.com/m/382fe668-90b9-38a7-b491-ad0bfcb0aeb4/coreweave-ceo-michael.html
+https://finance.yahoo.com/m/af1dde8e-0256-302f-b012-e2caad00110b/why-did-nebius-stock-plunge.html
+https://www.nst.com.my/amp/business/corporate/2026/07/1489956/blackstone-backed-airtrunk-eyes-sept-oct-launch-us15bil
+https://w.media/ctrls-datacenters-lands-us-26-million-investment-from-two-indian-tech-founders/
+https://w.media/tencent-cloud-launches-cloud-region-in-johor-its-first-in-malaysia/
+https://w.media/global-switch-debuts-in-bangkok-to-enter-johor-soon-in-southeast-asia-expansion/
+https://www.datacenterdynamics.com/en/news/evolution-dc-secures-long-term-lease-for-land-in-ho-chi-minh-city-vietnam/
+https://www.datacenterdynamics.com/en/news/meta-files-for-subsea-cable-connecting-the-us-and-denmark/
+https://www.bloomberg.com/news/articles/2026-08-21/anthropic-taps-google-chip-veteran-as-part-of-push-into-hardware
+
+https://tv.leeheggan.tech</itunes:summary>
     </item>
     <item>
       <title>Macquarie Weighs $25B Bid for Stack's Asia-Pacific Data Centres</title>
       <link>https://www.youtube.com/watch?v=MRvijyTC4kw</link>
-      <guid isPermaLink="false">dctv-ep07-MRvijyTC4kw</guid>
-      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
       <description>The daily APAC data-centre wrap for 2026-08-16.
 
 AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
@@ -449,15 +1032,41 @@ https://www.datacenterdynamics.com/en/news/malaysia-to-launch-palm-oil-based-imm
 https://www.ft.com/content/6f66a76d-0b2d-4301-886c-87ecc046731b?syn-25a6b1a6=1
 
 https://tv.leeheggan.tech</description>
-      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep07.mp3" length="10487468" type="audio/mpeg"/>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://leeheggan-droid.github.io/dctv-podcast/cover.jpg"/>
+      <content:encoded>&lt;p&gt;The daily APAC data-centre wrap for 2026-08-16.&lt;/p&gt;
+&lt;p&gt;AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.&lt;/p&gt;
+&lt;p&gt;Sources:&lt;br/&gt;https://w.media/stt-gdc-secures-usd-1-37-billion-green-financing-for-johor-campus/&lt;br/&gt;https://datacentremagazine.com/news/google-builds-its-largest-overseas-ai-data-centre-in-india&lt;br/&gt;https://w.media/indosat-ooredoo-nokia-nvidia-partner-to-build-1gw-ai-factory-in-indonesia/&lt;br/&gt;https://w.media/datagrid-inks-equipment-supply-deal-for-360mva-substation-to-power-new-zealands-largest-ai-data-center/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/australias-cdc-mulls-new-data-center-in-new-zealand/&lt;br/&gt;https://finance.yahoo.com/markets/stocks/articles/applied-digital-apld-stock-trades-232500526.html&lt;br/&gt;https://finance.yahoo.com/markets/stocks/articles/bank-america-revamps-lenovo-stock-193257330.html&lt;br/&gt;https://www.nst.com.my/amp/business/corporate/2026/07/1489956/blackstone-backed-airtrunk-eyes-sept-oct-launch-us15bil&lt;br/&gt;https://www.datacenterdynamics.com/en/news/lightstorm-secures-262m-in-funding-for-india-malaysia-singapore-subsea-cable/&lt;br/&gt;https://www.afr.com/policy/energy-and-climate/labor-draws-up-plan-to-restrict-household-water-for-data-centres-20260813-p60o14?ref=rss&amp;amp;utm_medium=rss&amp;amp;utm_source=rss_feed&lt;br/&gt;https://www.datacenterdynamics.com/en/news/centuria-eyes-250mw-of-data-center-capacity-in-australia/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/malaysia-to-launch-palm-oil-based-immersion-cooling-fluid-for-data-centers/&lt;br/&gt;https://www.ft.com/content/6f66a76d-0b2d-4301-886c-87ecc046731b?syn-25a6b1a6=1&lt;/p&gt;
+&lt;p&gt;https://tv.leeheggan.tech&lt;/p&gt;</content:encoded>
+      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep07.mp3" length="10487468" type="audio/mpeg" />
+      <guid isPermaLink="false">dctv-ep07-MRvijyTC4kw</guid>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>10:55</itunes:duration>
+      <itunes:episode>7</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>The daily APAC data-centre wrap for 2026-08-16.
+
+AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
+
+Sources:
+https://w.media/stt-gdc-secures-usd-1-37-billion-green-financing-for-johor-campus/
+https://datacentremagazine.com/news/google-builds-its-largest-overseas-ai-data-centre-in-india
+https://w.media/indosat-ooredoo-nokia-nvidia-partner-to-build-1gw-ai-factory-in-indonesia/
+https://w.media/datagrid-inks-equipment-supply-deal-for-360mva-substation-to-power-new-zealands-largest-ai-data-center/
+https://www.datacenterdynamics.com/en/news/australias-cdc-mulls-new-data-center-in-new-zealand/
+https://finance.yahoo.com/markets/stocks/articles/applied-digital-apld-stock-trades-232500526.html
+https://finance.yahoo.com/markets/stocks/articles/bank-america-revamps-lenovo-stock-193257330.html
+https://www.nst.com.my/amp/business/corporate/2026/07/1489956/blackstone-backed-airtrunk-eyes-sept-oct-launch-us15bil
+https://www.datacenterdynamics.com/en/news/lightstorm-secures-262m-in-funding-for-india-malaysia-singapore-subsea-cable/
+https://www.afr.com/policy/energy-and-climate/labor-draws-up-plan-to-restrict-household-water-for-data-centres-20260813-p60o14?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_feed
+https://www.datacenterdynamics.com/en/news/centuria-eyes-250mw-of-data-center-capacity-in-australia/
+https://www.datacenterdynamics.com/en/news/malaysia-to-launch-palm-oil-based-immersion-cooling-fluid-for-data-centers/
+https://www.ft.com/content/6f66a76d-0b2d-4301-886c-87ecc046731b?syn-25a6b1a6=1
+
+https://tv.leeheggan.tech</itunes:summary>
     </item>
     <item>
       <title>Blackstone, Nvidia and Jane Street Just Backed One Builder</title>
       <link>https://www.youtube.com/watch?v=akokwnTkAHI</link>
-      <guid isPermaLink="false">dctv-ep06-akokwnTkAHI</guid>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
       <description>The daily APAC data-centre wrap for 2026-08-09.
 
 AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
@@ -477,15 +1086,40 @@ https://www.bloomberg.com/news/articles/2026-08-07/data-center-firm-switch-is-sa
 https://investor.digitalrealty.com/news-releases/news-release-details/digital-realty-welcomes-governor-abbotts-initiative-responsible
 
 https://tv.leeheggan.tech</description>
-      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep06.mp3" length="8209196" type="audio/mpeg"/>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://leeheggan-droid.github.io/dctv-podcast/cover.jpg"/>
+      <content:encoded>&lt;p&gt;The daily APAC data-centre wrap for 2026-08-09.&lt;/p&gt;
+&lt;p&gt;AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.&lt;/p&gt;
+&lt;p&gt;Sources:&lt;br/&gt;https://www.afr.com/technology/firmus-to-turbocharge-ai-factories-roll-out-after-giant-funding-deal-20260807-p60mc5?ref=rss&amp;amp;utm_medium=rss&amp;amp;utm_source=rss_technology&lt;br/&gt;https://w.media/coreweave-debuts-in-indonesia-with-360mw-across-three-data-centers/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/japans-ntt-tokyu-land-sakura-internet-form-consortium-to-turn-ishikari-into-major-data-center-hub/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/colt-rmz-look-to-develop-gigawatt-scale-data-center-campus-in-vizag-india/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/microsoft-launches-india-south-central-hyderabad-cloud-region/&lt;br/&gt;https://finance.yahoo.com/m/eea90320-dca8-35d9-bcf6-c539c399b3be/these-ai-%E2%80%98pick-and-shovel%E2%80%99.html&lt;br/&gt;https://www.datacenterknowledge.com/data-center-construction/coreweave-s-global-ai-infrastructure-push-reaches-asia-pacific&lt;br/&gt;https://datacenternews.asia/story/asia-pacific-data-centre-pipeline-hits-record-26-5gw&lt;br/&gt;https://w.media/gamuda-scores-us-420-million-hyperscale-buildout-job-its-second-in-port-dickson-malaysia/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/samsung-sds-launches-npu-as-a-service-offering-with-furiosaai-chips-in-south-korea/&lt;br/&gt;https://www.bloomberg.com/news/articles/2026-08-07/data-center-firm-switch-is-said-to-file-confidentially-for-ipo&lt;br/&gt;https://investor.digitalrealty.com/news-releases/news-release-details/digital-realty-welcomes-governor-abbotts-initiative-responsible&lt;/p&gt;
+&lt;p&gt;https://tv.leeheggan.tech&lt;/p&gt;</content:encoded>
+      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep06.mp3" length="8209196" type="audio/mpeg" />
+      <guid isPermaLink="false">dctv-ep06-akokwnTkAHI</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>08:33</itunes:duration>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>The daily APAC data-centre wrap for 2026-08-09.
+
+AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
+
+Sources:
+https://www.afr.com/technology/firmus-to-turbocharge-ai-factories-roll-out-after-giant-funding-deal-20260807-p60mc5?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_technology
+https://w.media/coreweave-debuts-in-indonesia-with-360mw-across-three-data-centers/
+https://www.datacenterdynamics.com/en/news/japans-ntt-tokyu-land-sakura-internet-form-consortium-to-turn-ishikari-into-major-data-center-hub/
+https://www.datacenterdynamics.com/en/news/colt-rmz-look-to-develop-gigawatt-scale-data-center-campus-in-vizag-india/
+https://www.datacenterdynamics.com/en/news/microsoft-launches-india-south-central-hyderabad-cloud-region/
+https://finance.yahoo.com/m/eea90320-dca8-35d9-bcf6-c539c399b3be/these-ai-%E2%80%98pick-and-shovel%E2%80%99.html
+https://www.datacenterknowledge.com/data-center-construction/coreweave-s-global-ai-infrastructure-push-reaches-asia-pacific
+https://datacenternews.asia/story/asia-pacific-data-centre-pipeline-hits-record-26-5gw
+https://w.media/gamuda-scores-us-420-million-hyperscale-buildout-job-its-second-in-port-dickson-malaysia/
+https://www.datacenterdynamics.com/en/news/samsung-sds-launches-npu-as-a-service-offering-with-furiosaai-chips-in-south-korea/
+https://www.bloomberg.com/news/articles/2026-08-07/data-center-firm-switch-is-said-to-file-confidentially-for-ipo
+https://investor.digitalrealty.com/news-releases/news-release-details/digital-realty-welcomes-governor-abbotts-initiative-responsible
+
+https://tv.leeheggan.tech</itunes:summary>
     </item>
     <item>
       <title>Vantage Is Selling $2B of Malaysian Data Centres. Why Now?</title>
       <link>https://www.youtube.com/watch?v=JEYKtKi_pYw</link>
-      <guid isPermaLink="false">dctv-ep05-JEYKtKi_pYw</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
       <description>The daily APAC data-centre wrap for 2026-08-03.
 
 AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
@@ -507,15 +1141,42 @@ https://www.telecomreviewasia.com/news/industry-news/29841-sk-telecom-launches-s
 https://www.ft.com/content/7a8c03c7-1c33-4ba7-a768-a75fa1db9f36
 
 https://tv.leeheggan.tech</description>
-      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep05.mp3" length="8738732" type="audio/mpeg"/>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://leeheggan-droid.github.io/dctv-podcast/cover.jpg"/>
+      <content:encoded>&lt;p&gt;The daily APAC data-centre wrap for 2026-08-03.&lt;/p&gt;
+&lt;p&gt;AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.&lt;/p&gt;
+&lt;p&gt;Sources:&lt;br/&gt;https://w.media/naver-brookfield-and-nvidia-expand-south-korea-ai-infrastructure-project-to-200-mw/&lt;br/&gt;https://w.media/vantage-mulls-selling-its-us-2-billion-data-centers-in-malaysia-bloomberg/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/deepseek-planning-1gw-data-center-in-inner-mongolia-china-report/&lt;br/&gt;https://www.afr.com/rear-window/firmus-running-on-tasmanian-rainwater-and-spin-20260802-p60knb&lt;br/&gt;https://finance.yahoo.com/technology/articles/software-catches-bid-investors-rotate-123937611.html&lt;br/&gt;https://www.telecomreviewasia.com/news/technology-pick/29853-new-3d-reversible-technology-cuts-building-energy-consumption/&lt;br/&gt;https://www.nst.com.my/amp/business/corporate/2026/07/1489956/blackstone-backed-airtrunk-eyes-sept-oct-launch-us15bil&lt;br/&gt;https://w.media/south-korea-launches-public-private-ai-data-center-alliance/&lt;br/&gt;https://w.media/australian-ai-data-centre-framework-faces-state-split-over-renewable-requirements/&lt;br/&gt;https://datacenternews.asia/story/india-s-data-centre-capacity-set-to-hit-12-gw-by-2030&lt;br/&gt;https://w.media/thailands-true-idc-seeks-us-2-billion-loan-to-build-new-data-center/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/beetaloo-energy-partners-with-halliburton-to-develop-natural-gas-plant-for-proposed-data-center-in-australia-report/&lt;br/&gt;https://www.telecomreviewasia.com/news/industry-news/29841-sk-telecom-launches-sk-hyper-to-accelerate-ai-data-center-expansion/&lt;br/&gt;https://www.ft.com/content/7a8c03c7-1c33-4ba7-a768-a75fa1db9f36&lt;/p&gt;
+&lt;p&gt;https://tv.leeheggan.tech&lt;/p&gt;</content:encoded>
+      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep05.mp3" length="8738732" type="audio/mpeg" />
+      <guid isPermaLink="false">dctv-ep05-JEYKtKi_pYw</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>09:06</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>The daily APAC data-centre wrap for 2026-08-03.
+
+AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
+
+Sources:
+https://w.media/naver-brookfield-and-nvidia-expand-south-korea-ai-infrastructure-project-to-200-mw/
+https://w.media/vantage-mulls-selling-its-us-2-billion-data-centers-in-malaysia-bloomberg/
+https://www.datacenterdynamics.com/en/news/deepseek-planning-1gw-data-center-in-inner-mongolia-china-report/
+https://www.afr.com/rear-window/firmus-running-on-tasmanian-rainwater-and-spin-20260802-p60knb
+https://finance.yahoo.com/technology/articles/software-catches-bid-investors-rotate-123937611.html
+https://www.telecomreviewasia.com/news/technology-pick/29853-new-3d-reversible-technology-cuts-building-energy-consumption/
+https://www.nst.com.my/amp/business/corporate/2026/07/1489956/blackstone-backed-airtrunk-eyes-sept-oct-launch-us15bil
+https://w.media/south-korea-launches-public-private-ai-data-center-alliance/
+https://w.media/australian-ai-data-centre-framework-faces-state-split-over-renewable-requirements/
+https://datacenternews.asia/story/india-s-data-centre-capacity-set-to-hit-12-gw-by-2030
+https://w.media/thailands-true-idc-seeks-us-2-billion-loan-to-build-new-data-center/
+https://www.datacenterdynamics.com/en/news/beetaloo-energy-partners-with-halliburton-to-develop-natural-gas-plant-for-proposed-data-center-in-australia-report/
+https://www.telecomreviewasia.com/news/industry-news/29841-sk-telecom-launches-sk-hyper-to-accelerate-ai-data-center-expansion/
+https://www.ft.com/content/7a8c03c7-1c33-4ba7-a768-a75fa1db9f36
+
+https://tv.leeheggan.tech</itunes:summary>
     </item>
     <item>
       <title>We're Building AI 10x Faster Than the Power to Run It</title>
       <link>https://www.youtube.com/watch?v=0KsSjV0Bzp4</link>
-      <guid isPermaLink="false">dctv-ep04-0KsSjV0Bzp4</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
       <description>The daily APAC data-centre wrap for 2026-07-26.
 
 AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
@@ -537,29 +1198,66 @@ https://news.google.com/rss/articles/CBMioAFBVV95cUxNdUhZWkpnRGg4T3NwSWhhS3JFREd
 https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUU5JVE9CX0h3Q1RNSE9QRTFJUjd1bFlTaU92LXlqbTJwU2R5QzNBSUxlNng4b2ZhekcxNnRxU0JWWmhLVVVJQlZqbHNLdVNEZTZhVEdXQU1zQkRBX242MERYdGkycmppRTkyeXVCZ09RbXJHRHZsekpCY3Z5LWMwcmZhVmRfYkU0Y0FVS0RJTmlXbkRsdUZkQ2pJWFdXenUzdXlfcjlaenpFT1FHd0ZNaVMzOXVkbGNOYVVSbUExMHZtYVNBcDRMcQ?oc=5
 
 https://tv.leeheggan.tech</description>
-      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep04.mp3" length="9601580" type="audio/mpeg"/>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://leeheggan-droid.github.io/dctv-podcast/cover.jpg"/>
+      <content:encoded>&lt;p&gt;The daily APAC data-centre wrap for 2026-07-26.&lt;/p&gt;
+&lt;p&gt;AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.&lt;/p&gt;
+&lt;p&gt;Sources:&lt;br/&gt;https://www.bloomberg.com/news/articles/2026-07-24/nvidia-to-invest-1-billion-in-naver-and-expand-sk-group-accord&lt;br/&gt;https://www.afr.com/street-talk/inside-airtrunk-s-plans-to-create-a-4-4b-singapore-listed-giant-20260720-p60gxt?ref=rss&amp;amp;utm_medium=rss&amp;amp;utm_source=rss_technology&lt;br/&gt;https://www.datacenterdynamics.com/en/news/international-finance-corporation-to-invest-up-to-175m-in-two-airtrunk-data-centers-in-johor-malaysia/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/hong-kong-property-firm-itc-inks-memorandum-to-build-1gw-data-center-near-shanghai/&lt;br/&gt;https://www.datacenterdynamics.com/en/news/openai-data-center-in-sydney-australia-abandons-plans-for-recycled-water-cooling-system-report/&lt;br/&gt;https://w.media/tcs-adds-anakapalli-and-pune-sites-to-fuel-its-data-center-push/&lt;br/&gt;https://w.media/nsw-approves-goodmans-aud-1-1bn-project-pluto-data-centre-in-western-sydney/&lt;br/&gt;https://w.media/aemo-seeks-new-electricity-rules-for-ai-era-data-centres-in-australia/&lt;br/&gt;https://w.media/mercury-takes-stake-in-datagrid-nz-as-southland-ai-campus-nears-go-ahead/&lt;br/&gt;https://news.google.com/rss/articles/CBMiogFBVV95cUxQcXdKdDBES2kzdzdObHpjOE5QTkVHRGNQVk9uLTh6SkkzQ0o2bzF6c0QyTW13cVdSSE1IamUtUXlsQ2p1MmZNY3EzbmNyeUZHZXNwRlk4WUNPRExWcmw5Z01hQm5tTmtBSTBzWXl2cUt5aENQLW9Eb3J3N2dyOUtvOThNNkJJM09GcDdRTVJnNVhZb0xrckZHNWp2SjJlMjFYNVE?oc=5&lt;br/&gt;https://www.datacenterdynamics.com/en/news/eurus-energy-toyota-break-ground-on-wind-powered-data-center-in-hokkaido-japan/&lt;br/&gt;https://w.media/keppel-dc-reit-plans-to-redevelop-older-data-center-in-singapore-to-cater-for-hyperscaler-demand/&lt;br/&gt;https://news.google.com/rss/articles/CBMioAFBVV95cUxNdUhZWkpnRGg4T3NwSWhhS3JFREdMS3JXc0R5NGU3WHVWVlI5alU2TlNTQm9EQTBINnJLRVRJTTlHQXBpWlVxRG1vZHhCZUtVZklmTm04RWhqdlRMVGxFZEtTM1dBNHQ3SGNxSGJZbzFzQV92Y0QzcnhfdGhqR1d4emt3S1BBWUQ0S0ZmbFg0dDMtTW9SbjI3UmhySDVvbHpu?oc=5&lt;br/&gt;https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUU5JVE9CX0h3Q1RNSE9QRTFJUjd1bFlTaU92LXlqbTJwU2R5QzNBSUxlNng4b2ZhekcxNnRxU0JWWmhLVVVJQlZqbHNLdVNEZTZhVEdXQU1zQkRBX242MERYdGkycmppRTkyeXVCZ09RbXJHRHZsekpCY3Z5LWMwcmZhVmRfYkU0Y0FVS0RJTmlXbkRsdUZkQ2pJWFdXenUzdXlfcjlaenpFT1FHd0ZNaVMzOXVkbGNOYVVSbUExMHZtYVNBcDRMcQ?oc=5&lt;/p&gt;
+&lt;p&gt;https://tv.leeheggan.tech&lt;/p&gt;</content:encoded>
+      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep04.mp3" length="9601580" type="audio/mpeg" />
+      <guid isPermaLink="false">dctv-ep04-0KsSjV0Bzp4</guid>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>10:00</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>The daily APAC data-centre wrap for 2026-07-26.
+
+AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.
+
+Sources:
+https://www.bloomberg.com/news/articles/2026-07-24/nvidia-to-invest-1-billion-in-naver-and-expand-sk-group-accord
+https://www.afr.com/street-talk/inside-airtrunk-s-plans-to-create-a-4-4b-singapore-listed-giant-20260720-p60gxt?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_technology
+https://www.datacenterdynamics.com/en/news/international-finance-corporation-to-invest-up-to-175m-in-two-airtrunk-data-centers-in-johor-malaysia/
+https://www.datacenterdynamics.com/en/news/hong-kong-property-firm-itc-inks-memorandum-to-build-1gw-data-center-near-shanghai/
+https://www.datacenterdynamics.com/en/news/openai-data-center-in-sydney-australia-abandons-plans-for-recycled-water-cooling-system-report/
+https://w.media/tcs-adds-anakapalli-and-pune-sites-to-fuel-its-data-center-push/
+https://w.media/nsw-approves-goodmans-aud-1-1bn-project-pluto-data-centre-in-western-sydney/
+https://w.media/aemo-seeks-new-electricity-rules-for-ai-era-data-centres-in-australia/
+https://w.media/mercury-takes-stake-in-datagrid-nz-as-southland-ai-campus-nears-go-ahead/
+https://news.google.com/rss/articles/CBMiogFBVV95cUxQcXdKdDBES2kzdzdObHpjOE5QTkVHRGNQVk9uLTh6SkkzQ0o2bzF6c0QyTW13cVdSSE1IamUtUXlsQ2p1MmZNY3EzbmNyeUZHZXNwRlk4WUNPRExWcmw5Z01hQm5tTmtBSTBzWXl2cUt5aENQLW9Eb3J3N2dyOUtvOThNNkJJM09GcDdRTVJnNVhZb0xrckZHNWp2SjJlMjFYNVE?oc=5
+https://www.datacenterdynamics.com/en/news/eurus-energy-toyota-break-ground-on-wind-powered-data-center-in-hokkaido-japan/
+https://w.media/keppel-dc-reit-plans-to-redevelop-older-data-center-in-singapore-to-cater-for-hyperscaler-demand/
+https://news.google.com/rss/articles/CBMioAFBVV95cUxNdUhZWkpnRGg4T3NwSWhhS3JFREdMS3JXc0R5NGU3WHVWVlI5alU2TlNTQm9EQTBINnJLRVRJTTlHQXBpWlVxRG1vZHhCZUtVZklmTm04RWhqdlRMVGxFZEtTM1dBNHQ3SGNxSGJZbzFzQV92Y0QzcnhfdGhqR1d4emt3S1BBWUQ0S0ZmbFg0dDMtTW9SbjI3UmhySDVvbHpu?oc=5
+https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUU5JVE9CX0h3Q1RNSE9QRTFJUjd1bFlTaU92LXlqbTJwU2R5QzNBSUxlNng4b2ZhekcxNnRxU0JWWmhLVVVJQlZqbHNLdVNEZTZhVEdXQU1zQkRBX242MERYdGkycmppRTkyeXVCZ09RbXJHRHZsekpCY3Z5LWMwcmZhVmRfYkU0Y0FVS0RJTmlXbkRsdUZkQ2pJWFdXenUzdXlfcjlaenpFT1FHd0ZNaVMzOXVkbGNOYVVSbUExMHZtYVNBcDRMcQ?oc=5
+
+https://tv.leeheggan.tech</itunes:summary>
     </item>
     <item>
       <title>Japan Is Building 30 Substations for AI — All at Once</title>
       <link>https://www.youtube.com/watch?v=yO19xDc7FAE</link>
-      <guid isPermaLink="false">dctv-ep03-yO19xDc7FAE</guid>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
       <description>AI anchors Claire and Wenjia wrap the day in Asia-Pacific data centres: Mitsubishi Estate's nine-point-three-billion-dollar first move into the sector, Japan's utilities committing to thirty new substations for AI load, KKR's cleared buyout of STT GDC as a new AI hall opens in Jaipur, NTT building the power before the campus in Thailand, and CDC's spend-now-earn-later balance sheet in Australia — plus TSMC's $265 billion and the IBM profit-warning counterweight.
 
 Watch the channel live: https://tv.leeheggan.tech
 
 DC TV is an AI-produced news programme. Claire and Wenjia are AI presenters; all figures are sourced from published reporting.</description>
-      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep03.mp3" length="6346412" type="audio/mpeg"/>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://leeheggan-droid.github.io/dctv-podcast/cover.jpg"/>
+      <content:encoded>&lt;p&gt;AI anchors Claire and Wenjia wrap the day in Asia-Pacific data centres: Mitsubishi Estate's nine-point-three-billion-dollar first move into the sector, Japan's utilities committing to thirty new substations for AI load, KKR's cleared buyout of STT GDC as a new AI hall opens in Jaipur, NTT building the power before the campus in Thailand, and CDC's spend-now-earn-later balance sheet in Australia — plus TSMC's $265 billion and the IBM profit-warning counterweight.&lt;/p&gt;
+&lt;p&gt;Watch the channel live: https://tv.leeheggan.tech&lt;/p&gt;
+&lt;p&gt;DC TV is an AI-produced news programme. Claire and Wenjia are AI presenters; all figures are sourced from published reporting.&lt;/p&gt;</content:encoded>
+      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep03.mp3" length="6346412" type="audio/mpeg" />
+      <guid isPermaLink="false">dctv-ep03-yO19xDc7FAE</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>06:37</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>AI anchors Claire and Wenjia wrap the day in Asia-Pacific data centres: Mitsubishi Estate's nine-point-three-billion-dollar first move into the sector, Japan's utilities committing to thirty new substations for AI load, KKR's cleared buyout of STT GDC as a new AI hall opens in Jaipur, NTT building the power before the campus in Thailand, and CDC's spend-now-earn-later balance sheet in Australia — plus TSMC's $265 billion and the IBM profit-warning counterweight.
+
+Watch the channel live: https://tv.leeheggan.tech
+
+DC TV is an AI-produced news programme. Claire and Wenjia are AI presenters; all figures are sourced from published reporting.</itunes:summary>
     </item>
     <item>
       <title>864MW, an $85B Chip IPO, and a Supercomputer With No Power</title>
       <link>https://www.youtube.com/watch?v=E1TW2i-cRcg</link>
-      <guid isPermaLink="false">dctv-ep02-E1TW2i-cRcg</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
       <description>DC TV — the AI-presented news channel for Asia-Pacific data centres.
 
 Episode 2 (15 July 2026): our AI anchors Claire and Wenjia wrap the week's data-centre news across APAC — NEXTDC's A$2.3bn debt facility, AirTrunk's Sydney loan, Intel's $5.7bn Ireland expansion, Ferrovial's Madrid campus and more.
@@ -567,15 +1265,28 @@ Episode 2 (15 July 2026): our AI anchors Claire and Wenjia wrap the week's data-
 Watch the live channel — with a live markets rail and rolling news crawl — at https://tv.leeheggan.tech
 
 Anchors are AI-generated. News is drawn from public reporting; b-roll is file footage unless captioned otherwise.</description>
-      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep02.mp3" length="8744108" type="audio/mpeg"/>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://leeheggan-droid.github.io/dctv-podcast/cover.jpg"/>
+      <content:encoded>&lt;p&gt;DC TV — the AI-presented news channel for Asia-Pacific data centres.&lt;/p&gt;
+&lt;p&gt;Episode 2 (15 July 2026): our AI anchors Claire and Wenjia wrap the week's data-centre news across APAC — NEXTDC's A$2.3bn debt facility, AirTrunk's Sydney loan, Intel's $5.7bn Ireland expansion, Ferrovial's Madrid campus and more.&lt;/p&gt;
+&lt;p&gt;Watch the live channel — with a live markets rail and rolling news crawl — at https://tv.leeheggan.tech&lt;/p&gt;
+&lt;p&gt;Anchors are AI-generated. News is drawn from public reporting; b-roll is file footage unless captioned otherwise.&lt;/p&gt;</content:encoded>
+      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep02.mp3" length="8744108" type="audio/mpeg" />
+      <guid isPermaLink="false">dctv-ep02-E1TW2i-cRcg</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>09:07</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>DC TV — the AI-presented news channel for Asia-Pacific data centres.
+
+Episode 2 (15 July 2026): our AI anchors Claire and Wenjia wrap the week's data-centre news across APAC — NEXTDC's A$2.3bn debt facility, AirTrunk's Sydney loan, Intel's $5.7bn Ireland expansion, Ferrovial's Madrid campus and more.
+
+Watch the live channel — with a live markets rail and rolling news crawl — at https://tv.leeheggan.tech
+
+Anchors are AI-generated. News is drawn from public reporting; b-roll is file footage unless captioned otherwise.</itunes:summary>
     </item>
     <item>
       <title>Nvidia Just Put $720M Into an Australian AI Cloud</title>
       <link>https://www.youtube.com/watch?v=BmDiqxGqm9E</link>
-      <guid isPermaLink="false">dctv-ep01-BmDiqxGqm9E</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
       <description>DC TV — the AI-presented news channel for Asia-Pacific data centres.
 
 Episode 1 (14 July 2026): the week's data-centre news across APAC — capital, power, cooling and build-out — presented by our AI anchors, with figures and footage sourced from public reporting and the DC Weekly / dc-watch data lake.
@@ -583,9 +1294,24 @@ Episode 1 (14 July 2026): the week's data-centre news across APAC — capital, p
 Anchors are AI-generated (AI-presented). More at https://leeheggan.tech
 
 #datacentre #datacenter #APAC #AInews #datacentres</description>
-      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep01.mp3" length="7524908" type="audio/mpeg"/>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://leeheggan-droid.github.io/dctv-podcast/cover.jpg"/>
+      <content:encoded>&lt;p&gt;DC TV — the AI-presented news channel for Asia-Pacific data centres.&lt;/p&gt;
+&lt;p&gt;Episode 1 (14 July 2026): the week's data-centre news across APAC — capital, power, cooling and build-out — presented by our AI anchors, with figures and footage sourced from public reporting and the DC Weekly / dc-watch data lake.&lt;/p&gt;
+&lt;p&gt;Anchors are AI-generated (AI-presented). More at https://leeheggan.tech&lt;/p&gt;
+&lt;p&gt;#datacentre #datacenter #APAC #AInews #datacentres&lt;/p&gt;</content:encoded>
+      <enclosure url="https://leeheggan-droid.github.io/dctv-podcast/audio/ep01.mp3" length="7524908" type="audio/mpeg" />
+      <guid isPermaLink="false">dctv-ep01-BmDiqxGqm9E</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>07:50</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>DC TV — the AI-presented news channel for Asia-Pacific data centres.
+
+Episode 1 (14 July 2026): the week's data-centre news across APAC — capital, power, cooling and build-out — presented by our AI anchors, with figures and footage sourced from public reporting and the DC Weekly / dc-watch data lake.
+
+Anchors are AI-generated (AI-presented). More at https://leeheggan.tech
+
+#datacentre #datacenter #APAC #AInews #datacentres</itunes:summary>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,33 @@
+name: Sync approved DC TV podcast feed
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7,37 * * * *'
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: podcast-feed-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m unittest -v
+      - run: python build_feed.py
+      - name: Publish changed feed and request Pages build
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ! git diff --quiet -- feed.xml; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add feed.xml
+            git commit -m 'Sync approved DC TV podcast feed'
+            git push
+          fi
+          gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"

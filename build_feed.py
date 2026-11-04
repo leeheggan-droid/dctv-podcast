@@ -1,76 +1,48 @@
 #!/usr/bin/env python3
-"""Build feed.xml for the DC TV podcast from yt-dlp metadata + audio files."""
-import json, os, html, sys
-from datetime import datetime, timezone
-from email.utils import format_datetime
+"""Mirror the approved DC TV feed without changing published episode identity."""
+from pathlib import Path
+from urllib.request import urlopen
+from xml.etree import ElementTree as ET
 
-BASE = "https://leeheggan-droid.github.io/dctv-podcast"
-SITE = "https://tv.leeheggan.tech"
-VIDS = {1:"BmDiqxGqm9E",2:"E1TW2i-cRcg",3:"yO19xDc7FAE",4:"0KsSjV0Bzp4",5:"JEYKtKi_pYw",
-        6:"akokwnTkAHI",7:"MRvijyTC4kw",8:"CMaDyAquzD0",9:"U7VYFyQ782k",10:"CZCu1oxYpI4",
-        11:"5k9wb2QdcS8",12:"Rq11yYGmSGU",13:"FLB7u_hjJIg",14:"Xig_F-sxx4E",15:"UBHa00CwaZs"}
-ROOT = os.path.dirname(os.path.abspath(__file__))
+SOURCE = 'https://media.leeheggan.tech/dc-tv/assets/podcast/feed.xml'
+PUBLIC = 'https://leeheggan-droid.github.io/dctv-podcast/feed.xml'
+ATOM = 'http://www.w3.org/2005/Atom'
+for prefix, uri in [('itunes', 'http://www.itunes.com/dtds/podcast-1.0.dtd'),
+                    ('atom', ATOM), ('content', 'http://purl.org/rss/1.0/modules/content/')]:
+    ET.register_namespace(prefix, uri)
 
-def clean(s, limit=4000):
-    s = (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-    return s[:limit]
 
-def pubdate(yyyymmdd):
-    dt = datetime.strptime(yyyymmdd, "%Y%m%d").replace(tzinfo=timezone.utc)
-    return format_datetime(dt)
+def mirror(previous: bytes, incoming: bytes) -> bytes:
+    old, new = ET.fromstring(previous), ET.fromstring(incoming)
+    current = new.findall('./channel/item')
+    by_guid = {item.findtext('guid'): item for item in current}
+    if not current or None in by_guid or len(by_guid) != len(current):
+        raise ValueError('Empty feed or missing/duplicate episode GUID')
+    for item in old.findall('./channel/item'):
+        replacement = by_guid.get(item.findtext('guid'))
+        if replacement is None:
+            raise ValueError('Published episode disappeared or changed identity')
+        if replacement.find('enclosure').attrib != item.find('enclosure').attrib:
+            raise ValueError('Published audio URL, length or type changed')
+        if replacement.findtext('pubDate') != item.findtext('pubDate'):
+            raise ValueError('Published episode date changed')
+    for item in current:
+        enclosure = item.find('enclosure')
+        if enclosure is None or not enclosure.get('url', '').startswith('https://') or int(enclosure.get('length', '0')) <= 0:
+            raise ValueError('Invalid audio enclosure')
+    if 'Lee Heggan' not in new.findtext('./channel/title', ''):
+        raise ValueError('Missing Lee Heggan show branding')
+    link = new.find(f'./channel/{{{ATOM}}}link')
+    if link is not None:
+        link.set('href', PUBLIC)
+    return ET.tostring(new, encoding='utf-8', xml_declaration=True)
 
-items = []
-errors = []
-for n in sorted(VIDS, reverse=True):
-    vid = VIDS[n]
-    mp3 = f"{ROOT}/audio/ep{n:02d}.mp3"
-    mj = f"{ROOT}/meta/{vid}.json"
-    if not os.path.isfile(mp3):
-        errors.append(f"missing {mp3}"); continue
-    meta = json.load(open(mj, encoding="utf-8"))
-    size = os.path.getsize(mp3)
-    title = clean(meta.get("title") or f"DC TV Episode {n}", 250)
-    desc = clean(meta.get("description") or f"DC TV episode {n}.")
-    items.append(f"""    <item>
-      <title>{title}</title>
-      <link>https://www.youtube.com/watch?v={vid}</link>
-      <guid isPermaLink="false">dctv-ep{n:02d}-{vid}</guid>
-      <pubDate>{pubdate(meta['upload_date'])}</pubDate>
-      <description>{desc}</description>
-      <enclosure url="{BASE}/audio/ep{n:02d}.mp3" length="{size}" type="audio/mpeg"/>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="{BASE}/cover.jpg"/>
-    </item>""")
 
-if errors:
-    print("ERRORS:", errors, file=sys.stderr); sys.exit(1)
-
-feed = f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
-  <channel>
-    <title>DC TV — APAC Data Centre News</title>
-    <link>{SITE}</link>
-    <description>The weekly APAC data-centre wrap, AI-presented by DC TV. Editorial claims are sourced and reviewed before publication.</description>
-    <language>en</language>
-    <lastBuildDate>{format_datetime(datetime.now(timezone.utc))}</lastBuildDate>
-    <itunes:author>DC TV</itunes:author>
-    <itunes:owner>
-      <itunes:name>DC TV</itunes:name>
-      <itunes:email>tv@leeheggan.tech</itunes:email>
-    </itunes:owner>
-    <itunes:email>tv@leeheggan.tech</itunes:email>
-    <managingEditor>tv@leeheggan.tech (DC TV)</managingEditor>
-    <itunes:explicit>no</itunes:explicit>
-    <itunes:category text="Technology"/>
-    <itunes:image href="{BASE}/cover.jpg"/>
-    <image>
-      <url>{BASE}/cover.jpg</url>
-      <title>DC TV — APAC Data Centre News</title>
-      <link>{SITE}</link>
-    </image>
-{chr(10).join(items)}
-  </channel>
-</rss>
-"""
-open(f"{ROOT}/feed.xml", "w", encoding="utf-8").write(feed)
-print(f"feed.xml written: {len(items)} items")
+if __name__ == '__main__':
+    target = Path(__file__).with_name('feed.xml')
+    with urlopen(SOURCE, timeout=60) as response:
+        updated = mirror(target.read_bytes(), response.read())
+    staged = target.with_suffix('.xml.staged')
+    staged.write_bytes(updated)
+    staged.replace(target)
+    print(f'Validated and mirrored {len(ET.fromstring(updated).findall("./channel/item"))} approved episodes')
